@@ -1,11 +1,7 @@
 ---
 layout: page
 title: About
-image: '/images/pages/about.jpeg'
+image: '/images/pages/coffee.jpg'
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+잘했든, 못했든, 하고 있는 일과 그 과정에서 배운 것들을 하나씩 정리해서 기록으로 남기고자 합니다. 아주 개인적인 블로그이지만, 혹시 지나가다 잘못된 내용을 발견하게 되면, chajs226@gmail.com 으로 알려주시면 감사하겠습니다.
