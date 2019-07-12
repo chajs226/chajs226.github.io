@@ -1,0 +1,18 @@
+---
+layout: post
+title: PANDOC [문서변환]
+tags: [IT, pandoc]
+---
+
+github 페이지에 일과 관련된 글을 작성하려다 보니, github 페이지에도 글을 작성하고, 사내 위키 페이지(아직은 혼자 쓰고 있지만;)에도 비슷한 글을 작성해야 하는 일이 생기는데, 데이터 포맷이 다른 문제가 있다. 그래서 구글링 해보니, PANDOC이라는 아주 훌륭한 프로그램을 찾을 수 있었다. 웹페이지에서 직접 변환을 할 수 있고, 프로그램을 다운받아서 로컬에서 사용할 수도 있다. 사내 어떤 분으로부터 웹에서 제공하는 Converting 프로그램은 조심해서 쓰라는 조언에, 로컬용 프로그램을 사용하고 있다.(사내 민감한 내용을 converting 하는 순간, 해당 웹페이지의 서버에 저장이 될 수도 있다는;;)
+
+##### PANDOC 프로그램
+- 설치 페이지: https://pandoc.org/index.html
+- 사용법
+  1. pandoc windows 버전을 설치
+  2. cmd를 켜고, 변환할 문서가 있는 경로로 이동
+  3. pandoc testInput.markdown -f markdown -t textile -s -o testOutput.textile
+    - -s 옵션: Standalone 파일을 만듬
+    - -f markdown -t textile: makrdown 파일을 textile 파일로 변환
+    - -o testOutput.textile: output 파일명
+- 웹페이지에서 직접 변환: https://pandoc.org/try/
