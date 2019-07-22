@@ -5,10 +5,10 @@ tags: [해외연수]
 image: ''
 ---
 
-##### 원내 해외연수 준비반
+#### 원내 해외연수 준비반
 - 기간 :
 
-##### 메일 발송
+#### 메일 발송
 1. HIMS
 2. EPIC(의료 솔루션 업체)
 3. HIT (University of Kansas Health System)
@@ -20,16 +20,16 @@ image: ''
 9. Guy's and St Thomas' NHS Foundation Trust
 10. UHN (Toronto General Hostpital)
 
-##### Skype 인터뷰
+#### Skype 인터뷰
 - 2019.04.26
 - 2019.07.19
 
-##### 미팅
+#### 미팅
 - 일자 : 2019.06.13.
 - 장소 : 세미나실 (Asan Symposium 참석 차 방문)
 - 내용 : David, Dalia 에게 연수 프로그램에 대한 요구사항 전달
 
-##### Graphic design
+#### Graphic design
 
 > Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
 
