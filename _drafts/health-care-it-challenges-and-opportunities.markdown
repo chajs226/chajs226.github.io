@@ -46,7 +46,7 @@ law는 비밀을 지킬 필요가 있었다. 공통적으로 이분야에서는 
 
 ## Week2
 ### What Patients Tell Us They Want From Health IT (여기 다시)
-- 서베이
+- 서베이 (환자 만족도)
 - 의료진에 대한 신뢰
 - 환자 이야기를 귀기울이고
 - 의료진간의 협업
