@@ -1,0 +1,45 @@
+---
+layout: post
+title: Routes
+tags: [ionic]
+---
+
+## Routes(페이지 이동)
+
+프로젝트를 생성하면 app/app-routing.modules.ts 파일이 아래와 같이 자동 생성된다.
+
+```javascript
+const routes: Routes = [
+ { path: '', redirectTo: 'home', pathMatch: 'full' },
+ { path: 'home',
+   loadChildren: './home/home.module#HomePageModule' },
+];
+```
+routes 배열 안에 path를 지정해서 페이지간 이동을 구현할 수 있는데, 위에서는 /'' 아래에 아무것도 없으면 /home 페이지로 리다이렉션하도록 되어 있다.
+loadChildren Key에는 해당 path가 주어졌을 때, 수행될 module의 경로가 정의되어 있다. 이 module 파일을 열어서 따라가다 보면 여러 정보를 담고 있는데, 결국 화면에 display될 페이지(html 까지)를 가리키고 있다.
+
+index.html의 body 부분을 보면 app-root 태그가 있는데, 이부분에 /app/app.component.html의 코드가 변환 되어서 index 페이지를 만들게 된다.
+```html
+<body>
+ <app-root></app-root>
+</body>
+```
+
+app.component.html 파일에는 ion-router-outlet 태그가 있는데, Angular Router는 이부분을 미리 정의된 path 정보로 대체해서 처리한다.
+```html
+ <ion-router-outlet></ion-router-outlet>
+```
+
+결국 ion-router-outlet 부분이 app-routing.modules.ts 파일에 정의된 path 정보에 의해 동작하는 것이라고 한다.
+
+
+조회된 결과 리스트를 선택함에 따라 하위 페이지가 열리도록 하기 위해 아래와 같이 path를 추가했다. mysentences 페이지에서 선택된 kr_id라는 키값에 따라 mysentences/mysenteces-solutions 페이지가 열리도록 path를 지정하였다.
+
+```javascript
+ { path: 'mysentences',
+   loadChildren : './mysentences/mysentences.module#MysentencesPageModule' },
+ { path: 'mysentences/:kr_id',
+   loadChildren: './mysentences/mysentence-solutions/mysentence-solutions.module#MysentenceSolutionsPageModule'},
+```
+
+참고: [Navigating the Change with Ionic 4 and Angular Router](https://ionicframework.com/blog/navigating-the-change-with-ionic-4-and-angular-router/)
