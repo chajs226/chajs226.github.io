@@ -19,11 +19,11 @@ tags: [toy project]
 - Server
   - Django 환경 셋팅 ()
     - Python 가상 환경 및 Django 설치 참고 블로그: https://hongku.tistory.com/258
-      - 앞으로 Django는 항상 가상환경 위에서 실행을 하게 된다.
-        -예) C:\...\myDjango 경로(=가상환경을 설치한 경로)에서 'myvenv\Scripts\activate' 가상환경을 실행시키고, myDictServer 경로(=Django 프로젝트를 생성한 경로)에서 'python manage.py runserver'로 서버 실행
+      - 앞으로 Django는 항상 가상환경 위에서 실행을 하게 된다.  
+          예) C:\...\myDjango 경로(=가상환경을 설치한 경로)에서 'myvenv\Scripts\activate' 가상환경을 실행시키고, myDictServer 경로(=Django 프로젝트를 생성한 경로)에서 'python manage.py runserver'로 서버 실행
     - 프로젝트 생성 튜토리얼: https://docs.djangoproject.com/ko/2.2/intro/tutorial01/
     - mySQL 설치 & 설정
-      - C:\...\myDjango 경로(=가상환경을 설치한 경로)에서 'pip install mysqlclient' 로 mysql driver 설치
+      - ~\myDjango 경로(=가상환경을 설치한 경로)에서 'pip install mysqlclient' 로 mysql driver 설치
       - setting.py 에 설치된 mysql 설정값(DB명, IP/PORT, 계정, 비번 등)을 기술하고, 'python manage.py migrate' 를 통해 app 관리를 위한 기본 테이블들을 생성 
         ```python
         DATABASES = {
@@ -43,7 +43,11 @@ tags: [toy project]
 - 
 
 ## 삽질
-- 
+- mysqlclient 설치 오류
+  - 오류 메시지: error: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.1\\lib'
+  - 해결방법: 원인은 모르겠으나, 구글링해서 Mysqlclient whl파일을 로컬에 직접 내려받아서 설치했다. 
+    - mysqlclient 다운: https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+    - 설치방법: pip install {다운받은 파일}
 
 ## 회고
 
