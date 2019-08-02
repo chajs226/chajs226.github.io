@@ -17,7 +17,7 @@ tags: [toy project]
   - http request 구현 ()
 
 - Server
-  - Django 환경 셋팅 ()
+  - Django 환경 셋팅 (이부분은 나중에 deploy를 할 경우, 해당 서버에 동일하게 작업해야하는 내용)
     - Python 가상 환경 및 Django 설치 참고 블로그: https://hongku.tistory.com/258
       - 앞으로 Django는 항상 가상환경 위에서 실행을 하게 된다.  
           예) C:\...\myDjango 경로(=가상환경을 설치한 경로)에서 'myvenv\Scripts\activate' 가상환경을 실행시키고, myDictServer 경로(=Django 프로젝트를 생성한 경로)에서 'python manage.py runserver'로 서버 실행
@@ -32,13 +32,12 @@ tags: [toy project]
               'NAME': 'mydict',
               'HOST': '127.0.0.1',
               'PRT': '3306',
-              'USER': 'mydict',
-              'PASSWORD': 'mydict',
+              'USER': '???',
+              'PASSWORD': '???',
             }
         }
         ```
-    - 튜토리얼 모델만들기 할 차례
-      - python manage.py migrate 로 테이블을 실제로 생성하지는 않았음. 회사에서 쿼리를 한번 살펴보고 스키마검증후 생성해보기
+    - 모델을 만들고, 테이블 생성
 
 ## 스터디 내용
 - 
