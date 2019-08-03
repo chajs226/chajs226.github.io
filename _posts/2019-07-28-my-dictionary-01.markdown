@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Dictionary-01[Toy Project]
-tags: [toy project]
+tags: [toy project, ionic, angular]
 ---
 
 ## 기간
