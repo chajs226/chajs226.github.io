@@ -7,6 +7,63 @@ tags: [toy project, ionic, angular]
 ## 기간
 2019.07.21 ~ 2019.07.27
 
+## 개발 범위
+#### 기능
+1. Home
+  - 간단한 통계 보여주기(내가 등록한 문장 갯수, 정답율, 순위 등)
+2. Quiz
+  - 퀴즈풀기 (랜덤한 문장 불러오기 - 하나씩)
+3. My Sentences
+  - 퀴즈 문장 등록하기 (제일 위에 등록버튼이 있고, 등록버튼을 누르면 문장을 등록하는 화면으로 전환)
+  - 내가 등록한 리스트 보기
+    - 리스트 선택시 내가 선택한 정답 보여주기
+    - 내가 선택한 정답 아래로 다른 사람의 정답 보여주기
+4. History
+  - 내가 푼 문장 히스토리 보여주기
+  - 리스트 선택 시, 등록된 정답 보여주기 (우선순위에 따라)
+5. Settings
+  - 로그인
+  - 환경설정
+    - 푸시 설정
+      - 내가 등록한것만 푸시 / 다른 사람이 등록한 것도 푸시 (풀기)
+    - 비번 변경
+
+#### 진행 상태
+<details markdown="1">
+<summary> 1차 release </summary>
+1. Client 개발환경 구성
+2. Server 개발환경 구성
+3. Client 화면, 메뉴 설계
+4. 데이터 구조 설계
+5. Client-Server 통신 구성
+6. 서비스 개발
+  - My Sentence 페이지 개발
+    - 문장 등록하기
+    - 등록된 리스트 조회
+  - Quiz 페이지 개발
+    - 퀴즈 등록, 풀기
+</details>
+<details markdown="2">
+<summary> 2차 release </summary>
+6. 서비스 개발
+  - 로그인 기능 개발
+  - push 기능 개발
+  - History 페이지 개발
+</details>
+<details markdown="3">
+<summary> 3차 release </summary>
+6. 서비스 개발
+  - Settings 페이지 개발
+  - Home 페이지 개발
+</details>
+<details markdown="4">
+<summary> 4차 release </summary>
+7. 추가 기능
+  - 통계 기능 개선
+  - 데이터 분석 관련
+</details>
+
+
 ## 개발 내용
 - Client
   - 한글 문장을 선택했을 때, 등록된 영어 문장 불러오기 (완료)
