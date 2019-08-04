@@ -7,15 +7,43 @@ tags: [toy project, django, python]
 ## 기간
 2019.07.28 ~ 2019.08.03
 
-## 개발 내용
-#### Client
-  - ~~한글 문장을 선택했을 때, 등록된 영어 문장 불러오기 (완료)~~
-  - ~~문장 등록하기 버튼 추가 (완료)~~
-    - ~~새문장 등록 페이지 구현 (완료)~~
-      - 한글 문장 입력 전송 후, 입력된 한글 문장을 조회하고 영어 문장 입력 버튼을 눌러서, 답을 바로 입력하는 화면 구현 (향후 추가)
-  - ~~퀴즈 풀기 페이지 구현 (완료)~~
-  - http request 구현 (예정)
+## 진행 계획
+<details markdown="1">
+<summary> 1차 release </summary>
+1. Client 개발환경 구성 [완료]
+2. Server 개발환경 구성 [완료]
+3. Client 화면, 메뉴 설계 [1차완료]
+4. 데이터 구조 설계 [완료]
+5. Client-Server 통신 구성
+6. 서비스 개발
+  - My Sentence 페이지 개발
+    - 문장 등록하기
+    - 등록된 리스트 조회
+  - Quiz 페이지 개발
+    - 퀴즈 등록, 풀기
+</details>
+<details markdown="2">
+<summary> 2차 release </summary>
+6. 서비스 개발
+  - 로그인 기능 개발
+  - push 기능 개발
+  - History 페이지 개발
+</details>
+<details markdown="3">
+<summary> 3차 release </summary>
+6. 서비스 개발
+  - Settings 페이지 개발
+  - Home 페이지 개발
+</details>
+<details markdown="4">
+<summary> 4차 release </summary>
+7. 추가 기능
+  - 통계 기능 개선
+  - 데이터 분석 관련
+</details>
 
+
+## 개발 내용
 #### Server
   - Django 환경 셋팅
     - Python 가상 환경 및 Django 설치 참고 블로그: [링크]([https://hongku.tistory.com/258)
