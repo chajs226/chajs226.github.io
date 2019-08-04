@@ -7,8 +7,7 @@ tags: [toy project, ionic, angular]
 ## 기간
 2019.07.21 ~ 2019.07.27
 
-## 개발 범위
-#### 기능
+## 기능
 1. Home
   - 간단한 통계 보여주기(내가 등록한 문장 갯수, 정답율, 순위 등)
 2. Quiz
@@ -28,7 +27,7 @@ tags: [toy project, ionic, angular]
       - 내가 등록한것만 푸시 / 다른 사람이 등록한 것도 푸시 (풀기)
     - 비번 변경
 
-#### 진행 상태
+## 진행 계획
 <details markdown="1">
 <summary> 1차 release </summary>
 1. Client 개발환경 구성
