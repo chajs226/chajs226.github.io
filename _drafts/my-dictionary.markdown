@@ -44,7 +44,7 @@ tags: [toy project, django, python]
 
 ## 개발 내용
 #### Client
-- http request 구현
+- http request 구현 <- 할 차례
 - My Sentence 페이지 개발(화면구성)
 
 #### Server
@@ -53,7 +53,7 @@ tags: [toy project, django, python]
   - 등록된 리스트 조회 서비스
 
 ## 삽질
--
+- Django 가상환경 디버깅?
 
 ## 회고
 
