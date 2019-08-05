@@ -47,7 +47,9 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "workandlog"
+#Disqus
+disqus-identifier: chajs226@gmail.com
+#comments:
+#  provider: 'disqus'
+#  disqus:
+#    shortname: 'chajs226-github-io'

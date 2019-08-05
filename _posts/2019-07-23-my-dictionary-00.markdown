@@ -2,6 +2,7 @@
 layout: post
 title: My Dictionary-00[Toy Project]
 tags: [toy project]
+comments: true
 ---
 
 ## Why?

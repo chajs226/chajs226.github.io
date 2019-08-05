@@ -2,6 +2,7 @@
 layout: post
 title: My Dictionary-01[Toy Project]
 tags: [toy project, ionic, angular]
+comments: true
 ---
 
 ## 기간
