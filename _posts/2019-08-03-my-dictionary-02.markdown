@@ -46,7 +46,7 @@ tags: [toy project, django, python]
 ## 개발 내용
 #### Server
   - Django 환경 셋팅
-    - Python 가상 환경 및 Django 설치 참고 블로그: [링크]([https://hongku.tistory.com/258)
+    - Python 가상 환경 및 Django 설치 참고 블로그: [링크](https://hongku.tistory.com/258)
       - 앞으로 Django는 항상 가상환경 위에서 실행을 하게 된다.
         - 가상환경을 설치한 경로(C:\...\myDjango)에서 가상환경을 실행('myvenv\Scripts\activate')시키고, Django 프로젝트를 생성한 경로(...\myDictServer) 'python manage.py runserver'로 서버 실행
   - 프로젝트 생성 튜토리얼: [링크](https://docs.djangoproject.com/ko/2.2/intro/tutorial01/)

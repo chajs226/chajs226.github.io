@@ -46,3 +46,8 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "workandlog"
