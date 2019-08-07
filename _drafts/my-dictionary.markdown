@@ -45,6 +45,7 @@ tags: [toy project, django, python]
 ## 개발 내용
 #### Client
 - http request 구현 <- 할 차례
+  - https://www.youtube.com/watch?v=B1LRD7oMYDo 참고
 - My Sentence 페이지 개발(화면구성)
 
 #### Server
