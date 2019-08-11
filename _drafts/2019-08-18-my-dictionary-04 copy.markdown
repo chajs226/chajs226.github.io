@@ -5,7 +5,7 @@ tags: [toy project, django, python]
 ---
 
 ## 기간
-2019.08.04 ~ 2019.08.10
+2019.08.11 ~ 2019.08.17
 
 ## 진행 계획
 <details markdown="1">
@@ -44,17 +44,14 @@ tags: [toy project, django, python]
 
 ## 개발 내용
 #### Client
-- http request 구현 <- 할 차례
+- http request 구현 [진행중]
   - https://www.youtube.com/watch?v=B1LRD7oMYDo 참고
-- My Sentence 페이지 개발(화면구성)
+  - My Sentence 페이지 개발(화면구성)
 
 #### Server
 - My Sentence 페이지 개발
   - 문장등록 서비스
   - 등록된 리스트 조회 서비스
-
-## 삽질
-- Django 가상환경 디버깅?
 
 ## 회고
 
