@@ -44,14 +44,18 @@ tags: [toy project, django, python]
 
 ## 개발 내용
 #### Client
-- http request 구현 [진행중]
-  - https://www.youtube.com/watch?v=B1LRD7oMYDo 참고
-  - My Sentence 페이지 개발(화면구성)
+- http request 구현
+  - 클라이언트에서 post로 user_id를 던져서 내가 등록한 문장 리스트 가져오기 [3]
+
 
 #### Server
-- My Sentence 페이지 개발
-  - 문장등록 서비스
+- My Sentence 서비스 개발
   - 등록된 리스트 조회 서비스
+    - 내가 등록한 리스트 가져오기(테이블 조인) [1]
+    - post로 user_id를 파라미터로 받아서 리스트 조회하기 [2]
+
+## 삽질
+- Django ORM 에서 테이블을 조인걸려고 하다 보니, 테이블 설계가 이상한 것 같아서, 테이블을 모두 drop 하고 새로 생성하려고 했다. model.py 에서 자동 생성된 테이블의 키가 id인데, 굳이 kr_id 로 키를 주려다보니, 조인을 거는데 문제가 있는 것 같아서 기본 키를 갖도록 수정하려고 했다. 전부 drop하고 다시 migrate를 돌리니까.. 'django.db.utils.ProgrammingError: (1146, "Table 'mydict.mydictapp_krsentence' doesn't exist")' 에러가 발생함
 
 ## 회고
 
