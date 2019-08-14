@@ -56,6 +56,8 @@ tags: [toy project, django, python]
 
 ## 삽질
 - Django ORM 에서 테이블을 조인걸려고 하다 보니, 테이블 설계가 이상한 것 같아서, 테이블을 모두 drop 하고 새로 생성하려고 했다. model.py 에서 자동 생성된 테이블의 키가 id인데, 굳이 kr_id 로 키를 주려다보니, 조인을 거는데 문제가 있는 것 같아서 기본 키를 갖도록 수정하려고 했다. 전부 drop하고 다시 migrate를 돌리니까.. 'django.db.utils.ProgrammingError: (1146, "Table 'mydict.mydictapp_krsentence' doesn't exist")' 에러가 발생함
+- VS Code에 파이썬 from 에 'unable to import 'xxx' ' 오류가 발생.
+  - ==> VS Code에서 python extension이 잘못된 pylint 버전을 사용해서 그렇다고 한다. venv 환경에서 'pip install pylint'로 pylint를 설치해서 해결했다.
 
 ## 회고
 
