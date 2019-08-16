@@ -51,7 +51,7 @@ tags: [toy project, django, python]
 #### Server
 - My Sentence 서비스 개발
   - 등록된 리스트 조회 서비스
-    - 내가 등록한 리스트 가져오기(테이블 조인) [1]
+    - 내가 등록한 리스트 가져오기(테이블 조인) [1] [참고](http://scottlobdell.me/2015/01/sql-database-best-practices-django-orm/)
     - post로 user_id를 파라미터로 받아서 리스트 조회하기 [2]
 
 ## 삽질
@@ -66,6 +66,8 @@ Running migrations:
   No migrations to apply.e
 ```
   - ==> [StackOverFlow](https://stackoverflow.com/questions/35494035/django-migrate-doesnt-create-tables/35494384)를 보고 해결. migration 폴더를 지우고, makemigrations를 다시 수행한 다음, 생성된 0001_inital.py 파일을 0001_manual.py 파일로 수정한다음 migrate를 수행
+
+- Access to XMLHttpRequest at 'http://localhost:8000/myDict/chajs226@gmail.com' from origin 'http://localhost:8100' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 ## 회고
 
