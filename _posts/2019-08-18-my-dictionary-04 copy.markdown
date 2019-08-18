@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Dictionary-03[Toy Project]
+title: My Dictionary-04[Toy Project]
 tags: [toy project, django, python]
 ---
 
