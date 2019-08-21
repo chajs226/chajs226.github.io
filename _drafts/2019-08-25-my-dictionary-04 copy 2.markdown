@@ -56,6 +56,8 @@ tags: [toy project, django, python]
 
 ## 삽질
 - Access to XMLHttpRequest at 'http://localhost:8000/myDict/chajs226@gmail.com' from origin 'http://localhost:8100' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+  - url 정보가 같은 로컬서버에서 통신을 하려고 하면 CORS에러를 내뱉는데, 이를 허용하게 하는 설정을 아래의 사이트에서 보고 djanog에 설정을 했지만, 여전히 동일한 오류가 발생하고 있음 )https://www.techiediaries.com/django-cors/)
+
 
 ## 회고
 
