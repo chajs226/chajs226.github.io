@@ -5,7 +5,7 @@ tags: [toy project, django, python]
 ---
 
 ## 기간
-2019.08.18 ~ 2019.08.24
+2019.08.18 ~ 2019.08.31
 
 ## 진행 계획
 <details markdown="1">
