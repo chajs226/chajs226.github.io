@@ -58,9 +58,11 @@ tags: [toy project, django, python]
 - Access to XMLHttpRequest at 'http://localhost:8000/myDict/1' from origin 'http://localhost:8100' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
   - url 정보가 같은 로컬서버에서 통신을 하려고 하면 CORS에러를 내뱉는데, 이를 허용하게 하는 설정을 아래의 사이트에서 보고 djanog에 설정을 했지만, 여전히 동일한 오류가 발생하고 있음 )https://www.techiediaries.com/django-cors/)
 - Forbidden (CSRF cookie not set.): 오류 발생
-  - https://django.readthedocs.io/en/1.4.X/ref/contrib/csrf.html 여기공부를 좀 하자. 일단 CROS 설정을 제거함.    
+  - https://django.readthedocs.io/en/1.4.X/ref/contrib/csrf.html 여기공부를 좀 하자. 일단 CROS 설정을 제거함.
+
 
 ## 회고
 
 
 ## 다음 스텝
+- Ionic Post Reqest 다시 확인해서 구현하기(Rclient에서는 서비스 요청을 제대로 받는것을 봐서는,, ionic에서 post 요청에 문제가 있는 것 같음). 아니면 localhost에서 호출하는 것때문에 문제가 발생할지도...
