@@ -66,3 +66,4 @@ tags: [toy project, django, python]
 
 ## 다음 스텝
 - Ionic Post Reqest 다시 확인해서 구현하기(Rclient에서는 서비스 요청을 제대로 받는것을 봐서는,, ionic에서 post 요청에 문제가 있는 것 같음). 아니면 localhost에서 호출하는 것때문에 문제가 발생할지도...
+  - 500 Internal 에러 발생(AttributeError: 'QuerySet' object has no attribute '_meta')
