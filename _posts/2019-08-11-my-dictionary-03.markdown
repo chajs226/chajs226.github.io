@@ -2,6 +2,7 @@
 layout: post
 title: My Dictionary-03[Toy Project]
 tags: [toy project, django, python]
+categories: [toy project]
 ---
 
 ## 기간

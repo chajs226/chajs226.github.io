@@ -36,8 +36,20 @@ layout: default
   </div>
 </div>
 
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
 {% if page.comments %}
 <div id="post-discus" class="container">
-  {% include disqus.html %}  
+  {% include disqus.html %}
 </div>
 {% endif %}

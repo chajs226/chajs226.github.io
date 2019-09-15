@@ -2,6 +2,7 @@
 layout: post
 title: PANDOC [문서변환]
 tags: [IT, pandoc]
+categories: develop
 comments: true
 ---
 
@@ -16,4 +17,4 @@ github 페이지에 이런저런 글을 작성하려다 보니, github 페이지
     - -s 옵션: Standalone 파일을 만듬
     - -f markdown -t textile: makrdown 파일을 textile 파일로 변환
     - -o testOutput.textile: output 파일명
-- 웹페이지에서 직접 변환: [https://pandoc.org/try/](https://pandoc.org/try/) 
+- 웹페이지에서 직접 변환: [https://pandoc.org/try/](https://pandoc.org/try/)
