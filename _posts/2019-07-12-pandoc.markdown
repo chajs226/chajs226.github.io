@@ -2,7 +2,7 @@
 layout: post
 title: PANDOC [문서변환]
 tags: [IT, pandoc]
-categories: develop
+categories: Develop
 comments: true
 ---
 

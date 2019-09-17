@@ -2,7 +2,7 @@
 layout: post
 title: My Dictionary-00[Toy Project]
 tags: [toy project]
-categories: [toy project]
+categories: [Toy project]
 comments: true
 ---
 

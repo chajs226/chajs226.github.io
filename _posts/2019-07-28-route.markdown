@@ -2,7 +2,7 @@
 layout: post
 title: Routes
 tags: [ionic]
-categories: develop
+categories: Develop
 comments: true
 ---
 

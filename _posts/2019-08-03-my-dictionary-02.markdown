@@ -2,7 +2,7 @@
 layout: post
 title: My Dictionary-02[Toy Project]
 tags: [toy project, django, python]
-categories: [toy project]
+categories: [Toy project]
 comments: true
 ---
 

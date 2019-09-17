@@ -2,7 +2,7 @@
 layout: post
 title: My Dictionary-01[Toy Project]
 tags: [toy project, ionic, angular]
-categories: [toy project]
+categories: [Toy project]
 comments: true
 ---
 

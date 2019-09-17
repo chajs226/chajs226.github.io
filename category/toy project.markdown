@@ -2,6 +2,6 @@
 
 layout: category
 
-title: toy project
+title: Toy project
 
 ---

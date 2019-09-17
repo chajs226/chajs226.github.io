@@ -5,14 +5,14 @@ layout: default
 
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
-    <li>
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
+  <li>
+     <!--<h3>--> 
+        <a href="{{ site.baseurl }}{{ post.url }}" style="font-family:Verdana Bold;">
           {{ post.title }}
         </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
-    </li>
+        <small font size="50%" font-family="Verdana">{{ post.date | date_to_string }}</small>
+     <!-- </h3> -->
+  </li>
   {% endfor %}
 
 </ul>
