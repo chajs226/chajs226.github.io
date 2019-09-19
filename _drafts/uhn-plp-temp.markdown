@@ -8,8 +8,19 @@ categories: [uhn plp]
 ## Routes(페이지 이동)
 Date: 2019. 10. 21.
 
+1. 스케줄(time-table)
+2. Activity별 내용
+  - 배운것 자세히 기술
+  - 회의록(항상 녹음)
+  -
+2. 배운것
+
+
+
+---
+
 - Activity
-...  
+...
 - System
     - 사용자
     - 용도 및 기능
@@ -42,4 +53,4 @@ Date: 2019. 10. 21.
 - PDA
 - Privacy-Securty Bi
 - Requirements gathering session
-- 
+-
