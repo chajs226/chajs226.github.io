@@ -3,6 +3,21 @@ layout: post
 title: Quenstions
 categories: UHN-PLP
 ---
+
+
+### 추가 요청사항/질문사항
+- Daniel이 준 자료에서
+  - PCMS가 뭔가?
+  - Health Record... 여기가 EMR? 처방,간호,검사,원무 모두 포함하는 건가?
+- DDM 화면 캡처 요청
+- 데이터&임플리멘테이션 사이언스팀 인원이 300명이나 되면, 진료과에서 요청하는 프로젝트들이 빠르게 진행될 수 있겠다.
+- 장표에서 오퍼레이션팀의 인원이 많은데, 아직도 프로그램의 수정이 많이 일어나는지? Harris라는 시스템을 쓰고 있는데, 자체적으로 수정하는 것이 가능한가?
+- Redcap 자료 요청 읽어보자.
+- 인력이 어마어마한데,, UHN에서 운영하고 있는 프로그램 리스트가 있을까?
+- 코드리뷰나 코드 인스펙션 등의 활동이 있는지
+- 부서별로 몇명인지 확인
+---
+
 # Health Information System
 ## OCS
 - Is there a clinical decision support system for doctor?
