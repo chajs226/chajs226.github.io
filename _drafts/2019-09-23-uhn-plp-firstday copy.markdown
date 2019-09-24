@@ -4,6 +4,13 @@ title: Orientation
 categories: UHN-PLP
 ---
 
+- Q(Nancy&Daniel)
+  - 미팅요청
+    - Could we have a short meeting? I'd like to ask you more about what we talked yesterday. As you know, I'm not good at English. So I think there are something I missed or misunderstood.
+  - 녹음 요청
+    - And If you don't mind, Can I record the meeting? you know,, Because of my English
+
+
 ### 2019.09.23
 - 09:30 PLP Orientation [with Dalia]
 - 11:00 Digital team Orientation [with Nancy, Daniel]
@@ -22,14 +29,30 @@ UHN의 규모와 시설에 대한 간략한 설명을 듣고, ID카드를 받으
 병원 통합이 되면서, [***몇년동안 시스템의 인터그레이션 작업만 해왔다.-Nancy***]-(언제부터 언제까지? 몇년동안?)
 병원이 통합되면서 각 병원, 진료과별로 혼재되어 있던 22개의 IT 부서가 5년전에 하나의 부서로 통합되었다.(예를 들어 심장병원의 소규모 IT 인력(장비 및 자체 App에서 HIS의 EMR에 연동하는 작업등을 함)이 별도로 있었는데 디지털팀으로 이동을 함)
 
+- Q(Nancy&Daniel)
+  - Yesterday, you mentioned that UHN was made by integrated with other hospitals, so you had worked on integrating system. Did you mean other hospitals were TGH, TWH, PMH, TRI?? or are there more hospital?
+    -
+  - How long does integrating system carried on? When was it started, and When was it end?
+    -
+
 - 디지털팀의 구성
   - Data Operations, Voice of the Customer, Data & Implementation Science 3개의 파트로 구성 / Digital Security 팀이 별도로 존재
   - Data Operations
     - 인원: [***확인필요-Nancy***]-(몇명인지 확인) (IT 엔지니어, 개발자로 구성)
     - HIS 운영부서
-  - Data & Implementation ScienceData
+
+- Q(Nancy&Daniel)
+  - Can you tell me again that how many people are working in Data operation part?
+    -
+
+  - Data & Implementation Science
     - 인원: 200여명(주로 비지니스 분석가, 프로젝트 메니저들로 구성)
     - [***비지니스의 영역을 구현하는 역할을 함.-Nancy***]-(장표에 Delivery of strategic change & digital insight라고 되어 있는데 이것의 의미가 뭐지? 이팀에서 어떤 프로젝트를 진행하는지 예를 들어줄 수 있을까?)
+
+- Q(Nancy&Daniel)
+  - I saw the role of Data&Implementation science. It was a Delivery of strategic change & digital insight. Can you explain me more detail about that?
+    -
+
   - Voice of the Customer
     - 작은 그룹으로 풀타임 4명, 파트타임 3명으로 구성
     - Research, Clinical&Coporate, Education&Patient Experience 담당으로 구분(연구, 진료/파이낸스/HR, 교육 담당)
@@ -38,15 +61,35 @@ UHN의 규모와 시설에 대한 간략한 설명을 듣고, ID카드를 받으
     - 각 클리니컬 파트에서 사용하고자 하는 시스템을 디지털팀의 다른 파트와 협의해서, 어떤 시스템을 가져올지 같이 전략을 짜는 것도 이곳의 역할이다.
     - [***인원이 부족하지는 않은지? 3~4명이서 어떻게 현업의 요구사항을 수집, 인터뷰, 분석을 하며,, 솔루션을 마켓에서 찾아보고 도입을 진행하는 것 까지 어떻게 하는지?***]
 
+- Q(Nancy&Daniel)
+  - I think you said that VOC is receiving requirements from users. And after the interview and analyzing the requirements, Do VOC deliver it to Operation team to develop it?
+    -
+  - I think that you use DDM for that. Can you show me DDM system?
+    -
+  - And I think it's tough job. that's because UHN has many applications and there are so many requirements from users. And you have to follow-up through interviews with users and searching solution in the market. But your team members are less than 10 including full time and part time. Is it possible? Don't you need more employees?
+    -
+  - And you mentioned that when you need technical advice, you asked to design architecture group. That group is belong to Digital Operation team? How many people are working for design architecture group?
+    -
+
 ##### 2) 데이터 프로젝트
 - 5년전에 Data Lake를 만드는 프로젝트를 시작했다. 특히 심장병원 시스템에서 발생하는 수많은 데이터를 Data Lake에 모을 수 있게 되었고. 이전에는 각 시스템에서 사일로 방식으로 쌓이던 데이터가 Data Lake로 모이게 됨에 따라 데이터 활용을 위한 기반을 마련하였다. 현재 10명으로 구성된 기술팀을 가지고 있다. (Sowmya 담당)
 [***정밀 의료. 요거 공부 좀 해야할듯.. 구성이 어떻게 되어 있고, 정부가 하고자하는게 뭔지 확인해서 sowmya와 이야기 해보기-Junseong***]
 [***데이터 수집 방법, 구성도를 볼 수 있는지 요청, 구성을 하면서 어려웠던 점은 어떤것이 있었는지 물어보기-Sowmya ***]
 
+- Q(Sowmya)
+  - Can you show me the diagram about how to intergrated with HIS?
+    -
+  - What were the difficult parts when you've worked on developing data lake?
+    -
+
+
 ##### 3) UHN의 의료정보시스템
 - 현재 메인 HIS로는 [***해리슨-Daniel***]-(뭔지 다시 확인.15년정도됨) 을 쓰고 있고, 새로운 시스템을 준비중이다. [***Tanzina의 팀에서 솔루션 도입을 위한 미팅을 할 예정이다. 준비를 위한 프로세스에 대해서 자세히 이야기해보면 된다-Tanzina***]
 - 그외 어플리케이션에 대해서 모두 보고 싶다는 의견을 전달했고, 사용자(클리니컬) 관점에서는 진료과에 가서 보는 게 어려울 수 있고, 이러닝 팀에서 많은 프로그램을 담당하고 있으니, 이러닝 팀의 도움을 요청하기로 함. 이러닝팀을 통해 사용자 관점에서, 디지털팀을 통해 시스템 관점에서 볼 수 있도록 함.
 - 대부분의 병원이 대형 솔루션 업체의 제품을 쓰기 때문에, 의료진들이 프로그램에 적응하기 위해 애를 많이 써야한다. 그래서 비지니스 분석가 등이 진료과 별로 커뮤니케이션, 교육, 프로세스를 분석하는 일이 중요하다.
+
+- Q(Nancy&Daniel)
+  - Can you let me know about HIS in UHN? I heard that was Harrison. Is that right?
 
 ##### 4) PLP 진행 방식에 대한 협의
 - 사용자의 요구사항을 받아서, 개발, 테스트까지 어떤 과정을 거쳐서 프로그램을 수정하는지, ALM 관점에서 관찰하고 배우고 싶다는 의견을 전달했다. 관련하여 디지털 팀의 각 담당자와 일정을 잡아서 스케줄을 다시 전달해주면 읽어보고 피드백을 해주기로 했다.
@@ -62,14 +105,15 @@ UHN의 규모와 시설에 대한 간략한 설명을 듣고, ID카드를 받으
   - Daniel이 다음달 초에 출산휴가를 가게 되면서 아쉽게도 초반에만 함께 할 수 있다고 한다. 그러면서 캐나다의 출산 휴가에 대한 이야기가 자연스럽게 나왔는데, 여자는 18개월, 남자는 3개월이 보장된다고 한다. 캐나다는 좋은나라.
 - 이곳의 IT 직원들도 현업~~특히 의사~~으로 부터의 압력과 그들~~특히 의사~~의 빅보이스에 스트레스를 많이 받는다고 한다. 함께 공감하며 웃으며 이야기했지만, 씁쓸한 이야기
 
+- Q
+  - Sowmya is belong to Data&Implementation team? And Anna is belong to Data Implementation team?
+  - If you don't mind Can I take a picture of us? because I have to write mail with taken a picture with mentors in first week of program.
 
-[*** DDM 사이트를 보여달라 ***]
 
 #### 우리병원 관련
-
-  - Data & Implementation ScienceData
-    - 여기는 이름이 더 어려움.
-
+1. 조직에 대한 비교 장표를 만들어서 차이점과 비슷한 점을 정리 할 수 있겠다.
+  - 이부분은 오늘 추가 인터뷰가 끝나면 정리해보기
+  - 우리 병원에서의 개선 포인트도 자연스럽게 도출될 듯
 
 ### Others
 
