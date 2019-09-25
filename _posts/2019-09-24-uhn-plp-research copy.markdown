@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Researcher Experience Portfoloi[두번째날]
+title: Researcher Experience Portfoloi[둘째날]
 categories: UHN-PLP
 ---
 
