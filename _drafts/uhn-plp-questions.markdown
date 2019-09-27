@@ -4,171 +4,158 @@ title: Quenstions
 categories: UHN-PLP
 ---
 
+### To-Do
+[9/25 09:00 / Planning, Design and Architecture Weekly Meeting 회의록 받아서 추가 정리]
+[9/26 14:00 / Digital Operating Committee 자료 받아서 추가 정리]
+[9/26 14:00 / Clinical Group 자료 받은거 읽어보고 정리]
+eLearning 해보기
 
-### 추가 요청사항/질문사항
-#### 9.25 미팅
-- What JDNI stand for? At the meeting, people said that word. But I had no idea.
-
-#### Today
+### 멘트
 [미팅-인사]
-- Hi, I'm Junseong Cha from Asan Medical Center in Seoul, Korea. I've been working for 8 years as an IT engineer in the hospital. I heard that there are great people and advanced process for IT in UHN. While I’m here, I’d like to learn how digital team works for hospital. And I'm looking forward to having a great time with you. Thank you.
----
+- Hi, I'm Junseong Cha from Asan Medical Center in Seoul, Korea. I've been working for 8 years as an IT engineer in the hospital. I heard that there are great people and an advanced process for IT in UHN. While I'm here, I'd like to learn how the digital team works for the hospital. Also, I'm looking forward to having a great time with you. Thank you.
 
-Nancy
-
-[Organazation]
-- 데이터&임플리멘테이션 사이언스팀 인원이 300명이나 되면, 진료과에서 요청하는 프로젝트들이 빠르게 진행될 수 있겠다.
-  - I saw that it's about 70 porjects in the roadmap. Will each proejct be handled by project manager from data&implementation part?
-    - 거의 대부분이 그렇다. 프로젝트별로 여러 매니저가 참여하게 될 수 있다. 그래서 300명 가까운 인원이 있다고 해도, 하나의 프로젝트 여러 매니저를 필요로 하기 때문에 인원이 많을 수 밖에 없다.
-  - You said that there are about 300 people in the data&implementation team. but 300 is almost around the all employees number of one company. generally, how many people will be involved one project??
-    - 거의 대부분이 그렇다. 프로젝트별로 여러 매니저가 참여하게 될 수 있다. 그래서 300명 가까운 인원이 있다고 해도, 하나의 프로젝트 여러 매니저를 필요로 하기 때문에 인원이 많을 수 밖에 없다.
-
-[Application]
-- UHN에서 운영하고 있는 프로그램 리스트가 있을까?
-  - Can I see the list of application being used in UHN?
-    - 확인해보기로함. 오퍼레이션 팀 cheif와 먼저 상의하기로 함.
-
-- 디지털팀 각 담당자 미팅 요청
-  - Can I have a interview with Operation team and Data&implemetation science team? I'd like to ask them sth.
-    - 안드레라는 사람과 미팅 하기로 함.
-
-- 미팅회의록 보내줄 수 있는지?
-  - Actually, I'm not sure what I uderstood is correct or not in the meeting. So if you have a meeting note, can you give it? it will be very helpful.
-    - 공식적인 미팅은 회의록이 남지만, 인포멀한 미팅에서는 안남기는 경우도 많다. 그럴 경우에는 본인이 막 작성한 미팅노트라도 공유해주기로 함.
-
-- 시스템 확인
-  - And I want to see real programs in UHN. is it available to see during 3th weeks?
-    - 이것도 오퍼레이션팀에 먼저 물어보고 알려주기로 함.
+[하는일]
+We help medical staff by providing technologies. So we have many meetings with them, and through the meeting, we understand their requirements. So we discuss it with the IT service team. If we decide to do that, the IT service team is planning the schedule by priority. However, if we can't do that, we reply to them about our opinion.
 
 ---
+### 추가 요청사항/질문사항 데일리
+
+[일반]
+- 랩업 미팅 요청[다니엘]
+  - Can we have a short meeting daily? I have many things to want to ask you. Even though we are sitting nearby and I can ask you whenever I want, but I don't want to bother you. So, Can we have a regular meeting like a daily wrap up meeting?
+
+- 9.25 미팅 관련[다니엘]
+  - What JDNI stand for? At the meeting, people said that word. But I had no idea.
+
+- 헬스체크 메일[다니엘]
+  - What is the health check mail Nancy sent us?
+
+- 미팅 연기 확인[다니엘]
+
+- 어제 미팅회의록 공유[다니엘]
+  - Do you have a meeting note about Weekly Meeting yesterday? Can you send me that? I didn't get about yesterday meeting. so Can  you share it? It would be very helpful for me to understand.
+    - 다니엘이 어제 미팅 담당자에게 미팅노트를 받으면 포워드 해주기로 함.
+
+---
+
+[VOC]
+
+- 그게 DDM으로 요청을 한건지?(PDA 회의에서 논의한 요청사항에 대해) [다니엘]
+  - So, in the Planning, Design and Architecture Weekly Meeting, we discussed what users requested. Did they request it to VOC team through DDM? Can you show me?
+
+[DDM]
+- DDM 화면 캡처 요청 / 기능을 좀 더 살펴보기[다니엘]
+  - Can I see the DDM? Can I get a read-only account?
+  - Can I take a screen capture?
+  - if it's impossible, I'd like to see DDM with you or daniel.. and want to have some screenshot.
 
 [Digital_Demnad_Management-자료]
-- SME?(3)
-  - IS SME also a kind of team? What kind of member was participated in? Are those leaders of each team?
-    - Subject Manager
-
-- DDM의 요구사항을 받는 주기 / 방법(7)
-  - How do you collect the demand from UHN community? Is there an application? or just writing some documentatnion and send it email to VOC?
-    - 과거에는 이메일로 주로 사용했고, 지금은 SharePoint를 사용한다. 그리고 앞으로는 서비스나우 라는 솔루션을 사용할 예정이다. '피터'랑 미팅을 잡아서 기능에 대해서 자세히 설명해주기로 함.
-  - When I read 19/20 Digital Roadmap Development, I think that you are collect the UHN comunity's demand during only first 4 months. If some demand come up after those period, how do you handle it?
-    - 현실적으로는 그렇게 안된다. 디멘드는 언제라도 들어올 수 있고, 우리는 검토를 할 수 밖에 없다. 매주 미팅에서 new 디맨드에 대해서 검토하는 시간을 갖는다. 정부에서 요구하는 변경안이 급하게 내려오는 경우도 있기 때문에, Priroty를 고려해서 작업을 진행한다.
-
-- EPR이 뭔가? (10)
-  - What is the EPR?
-    - Electronic Patient Record = HIS
-
 - 데이터 표준화 관리하는 시스템이 있는지-Data Governance(10)
   - Do you have a system or application for data standardization?
 
 - Mandatory Requirment에 대해서 설명해줄 수 있는지(10)
   - Can you explain me about mandatory requirment? there are some unfamiliar terms, so it was difficult for me to understand.
 
----
-[DDM]
-- DDM 화면 캡처 요청 / 기능을 좀 더 살펴보기
-  - Can I see the DDM? Can you give me an account which has only read authority?
-  - if it's impossible, I'd like to see DDM with you or daniel.. and want to have some screenshot.
----
-
-
-
----
-
----
-
-  - Daniel이 준 자료에서
-  - PCMS가 뭔가?
+[Digital-Operation-조직자료] [다니엘]
+- In Clinical Application Support, what are their's role?
+- Why are so many people needed in the Health Record and Transcription Unit?
   - Health Record... 여기가 EMR? 처방,간호,검사,원무 모두 포함하는 건가?
-
-
-- Redcap 자료 요청 읽어보자.
 
 ---
 
 [Digital-Operation]
+
 - 장표에서 오퍼레이션팀의 인원이 많은데, 아직도 프로그램의 수정이 많이 일어나는지? Harris라는 시스템을 쓰고 있는데, 자체적으로 수정하는 것이 가능한가?
-  - And Digital operation team also has about 200 people. I know that UHN is using harris as a HIS solution. harris is not in-house product. but is it possible to modify the application by digital operation team? Is it still a lot?
-- OCS
-  - Is there a clinical decision support system for doctor?
-- EMR
-  - Could you show me the EMR system and how to use?
-  - How to make EMR forms? Are there employees in charge of it in hospital?
-- 권한
-- 화면
+  - The digital operation team also has about 200 people. Also, I know that UHN is using harris as a HIS. Harris is not an in-house product. However, is it possible to modify the application by the digital operation team? Also, How many requirements are for one month?
+
+- CDSS 기능은 있는지?
+  - Is there a clinical decision support system for the doctor?
+
+- EMR 보여줘. EMR서식은 어떻게 만들어?
+  - Could you show me the EMR system and how to use it?
+  - How to make EMR forms? Are there employees in charge of it in the hospital?
+
+- 화면 권한 관리
   - How to manage screen access authorities of users?
-- 환자
-  - Do you have policies or rules to protect patient’s privacy?
-- 공통
+
+- 환자 권한 관리
+  - Do you have policies or rules to protect the patient’s privacy?
+
+- 공통-SSO
   - Is there a session timeout?
-- 솔루션(EAI, SSO 등)
-  - What kinds of solutions do you have and what kinds of applications did you develop by yourself?
-  - Do you have SSO function? If you have one, how many systems are connected?
-  - Is there a solution to interoperate with applications?
-- 모바일
-  - How many kinds of mobile services are operating now?
-- 아키텍처
-  - How long does it take to deploy application? WAS restart time?
-  - Do you have an environment for disaster (DR)?
-  - How many instances of EMR is operating?
+  - Do you have a single-sign-on function? If you have one, how many systems are connected?
+
+- 솔루션 뭐가 있고, 자체 개발한 프로그램은 뭐있는지?
+  - What kinds of solutions do you have and what kinds of applications did you develop in-house?
+
+- 시스템간에 연계는 어떻게 하는가?
+  - How to interoperate data between HIS and other systems? Is there any application for that?
+
+- 모바일 종류
+  - what kinds of mobile services are operating now?
+
+- 아키텍처, WAS 배포에 시간 얼마나 걸리는지? 재기동 시간은 어떤지?
+  - How long does it take to deploy application? How long is the WAS restart time?
+
+- HIS 는 이중화 되어 있나?
+  - Do you have an environment for High-Availability?
+
+- 인스턴스는 몇개 떠있는지
+  - How many instances of HIS is operating?
+
+- WAS랑 데이터 베이스는 어떤거 쓰는지?
+  - What kinds of vender are you using in WAS and DB?
+
 - 클라우드
-  - Is it possible to use cloud service in the hospital? Do you have any system is operating in cloud now?
+  - Is it possible to use the cloud service in the hospital? Do you have any system operating in the cloud now?
 
-- Process of maintaining and developing software
-  - I’m curious about the role of digital team in the hospital
+- 운영 - 수정요청부터 배포까지 과정을 알고 싶다.
+  - I'd like to see your development process from getting requirements from users to developing and deploying the application.
 
-- 개발 프로세스
-- 운영
-  - Do you have a process to maintain or release software?
-  - How to deal with application error? Is those errors reported to manager? How reported it?
-  - I’d like to see your whole deploy process.
-  - How to monitor system environment during operating?
+- 운영에서 오류가 나면 어떻게 캐치하고 수집하나?
+  - How to catch the error in the live system? Is there any monitoring system?
 
-- 설계
-  - Do you have some design papers of application? Use case diagram, DFD, etc
-- 개발
-  - How do engineers in UHN see the log of application? Is there a good log viewer application?
-  - What kinds of languages do you use?
-- 테스트
-  - How to control and make test data?
-  - Is there an environment for test?
-  - How to know impact with related application, when you add some functions to the application? Is there a system to check about it?
+- 개발할떄 설계문서를 작성하나요? 어떤 다이어그램을 쓰나요?
+  - Do you write some design papers, when you develop the application? For example, Use case diagram, DFD, like that.
 
-- 품질관리
-  - Do you have any process for SWQ such as code inspection, peer coding, and so on?
-  - Do you have any coding rules?
-  - Do you have any processes for coding inspection?
-  - What kinds of applications do you use for source version control?
+- 개발언어는 주로 어떤걸 쓰나요?
+  - What kinds of languages do you use mainly?
 
----
+- HIS의 환경은 어떻게 구성되어있나요? 교육? 테스트? 등?
+  - How many environments of HIS set in UHN besides live? For example, it's for developing, testing, stagging, educating.
 
-[VOC]
-### 지원 프로세스
-- If clinical staff have a problem when they’re working on holiday or after day time, how to support them? Is there a help desk team?
-- How to teach medical staff for using application
-- Do you have any wiki system for users? About usage of application
+- 테스트 할때 오류가 없다는 것을 어떻게 보장하고 릴리즈 하나요?
+  - How to know the impact with related application, when you add some functions to the application? Is there a system or process to check about it?
 
-#### SR
-- How to request for new functions of applications that medical staff wants?
-  - DDM 이라는 프로그램을 통해서 규모가 큰 프로젝트 요청건이 들어온다. 프로그램 수정, 오류건에 대한 것은 헬프데스크를 통해서 접수를 받고 있고, 이를 위한 프로그램도 별도로 있다. 사용자는 전화로 신고를 하고, 헬프데스크의 누군가가 servicenow라는 프로그램을 통해서 접수하고 내용을 관리한다.
-- A user met an error when they use the application, how they report an error to an IT department?
+- 품질관리를 위한 프로세스가 있나요? 코드점검 등의..
+  - Do you have any process for software quality management? For example, Do you have the coding rule? Also, Do you have a code inspection tool? Peer coding process?
+
+- 소스 형상관리 툴은 뭘쓰나요?
+  - What are you using in source version control software?
+
+  #### SR
+- 프로그램 수정 요청은 어떻게 받는지?
+  - How to request for new functions of applications that medical staff wants?
+    - ==> DDM 이라는 프로그램을 통해서 규모가 큰 프로젝트 요청건이 들어온다. 프로그램 수정, 오류건에 대한 것은 헬프데스크를 통해서 접수를 받고 있고, 이를 위한 프로그램도 별도로 있다. 사용자는 전화로 신고를 하고, 헬프데스크의 누군가가 servicenow라는 프로그램을 통해서 접수하고 내용을 관리한다.
+
+- 현재 얼마나 많은 인시던트가 접수되어 있는지 궁금
+  - How many are service requests, including new requirements and errors accepted now?
+
+- 헬프데스크는 24시간 운영되나?
+  - Is the help desk working 24/7? If you don't do that when users meet an error on holiday, how to support them?
+
+- 우리는 IT서비스팀 사람들은 주말에도 거의 on-call 상태이다. 주말에 쓰다가 오류가 나면, 원격으로 봐주고 있다. 서비스 운영을 맡고 있는 여기 직원들은 어떤가?
+  - In my hospital, IT service team members are always ready to on-call because medical staff are working even though during the holiday. If they have a problem with the HIS, the IT service team has to help them. Because sometimes something emergency comes up. How does your team do that situation?
 
 ---
 
 [Data&Implemntation-Science]
-### New technologies
-### 신기술
-- Where are used AI, IoT, Big data?
-- What part is difficult in case you adjust new tech?
-### 연구 활용
-- How to export patient’s data for research?
+
+- 음성처방입력이나, AI기술이 진료에 활용되는 사례가 있을까요?
+  - I'm wondering where you are using new technologies in the clinical side. For example, It's making an order by speech or predicting cancer by patient's record history.
 
 
-
-
-
-
-
-
+---
 
 ## Clinical Process
 ### 약 사용
