@@ -5,10 +5,10 @@ categories: UHN-PLP
 ---
 
 ### To-Do
-[9/25 09:00 / Planning, Design and Architecture Weekly Meeting 회의록 받아서 추가 정리]
-[9/26 14:00 / Digital Operating Committee 자료 받아서 추가 정리]
 [9/26 14:00 / Clinical Group 자료 받은거 읽어보고 정리]
 eLearning 해보기
+[9/25 09:00 / Planning, Design and Architecture Weekly Meeting 회의록 받아서 추가 정리]
+[9/26 14:00 / Digital Operating Committee 자료 받아서 추가 정리]
 
 ### 멘트
 [미팅-인사]

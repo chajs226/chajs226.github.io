@@ -1,7 +1,7 @@
 ---
 
 layout: category
-title: Tronto Lifelog
+title: Tronto-Lifelog
 weight: 5
 
 ---
