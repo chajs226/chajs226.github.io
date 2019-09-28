@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 토론토 도착
-categories: [Tronto Lifelog]
+categories: [Tronto-Lifelog]
 ---
 
 ### 2019.09.21 [토론토 도착]
