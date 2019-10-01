@@ -27,7 +27,7 @@ We help medical staff by providing technologies. So we have many meetings with t
 
 [일반]
 - 프로그램 요청. 팀을 돌아다니면서 배울 수 있게 해달라[달리아]
-    - From last week, I've learned about the user requirements management process through many meetings with the VOC unit. Moreover, Nancy and Daniel helped me a lot about what I want to learn. However, I want to learn more about Digital Operation and implementation part. So can I move into the digital operation team or implementation team during the rest of our program?
+    - Until now, I've learned about the user requirements management process through many meetings with the VOC unit. Moreover, Nancy and Daniel helped me a lot about what I want to learn. However, I want to learn more about Digital Operation and implementation part. So can I move into the digital operation team or implementation team during the rest of our program?
 
 - 랩업 미팅 요청[낸시]
   - Can we have a short meeting daily? I have many things to want to ask you. Even though we are sitting nearby and I can ask you whenever I want, but I don't want to bother you. So, Can we have a regular meeting like a daily wrap up meeting?
@@ -47,6 +47,10 @@ We help medical staff by providing technologies. So we have many meetings with t
   - Whenever you have a meeting, you have connected to Skype. What was that for?
     - ==> 미팅 참석 못하는 경우에는 스카이프로 참석할 수 있게 셋팅을 하는 것이다.
 
+- 시스템 종류
+  - HRM(Hospital Report Manager)
+  - EPR
+  -
 ---
 
 [VOC]
@@ -54,6 +58,22 @@ We help medical staff by providing technologies. So we have many meetings with t
 - 그게 DDM으로 요청을 한건지?(PDA 회의에서 논의한 요청사항에 대해) [다니엘]
   - So, in the PDA Weekly Meeting, we discussed what users requested. Did they request it to VOC team through DDM? Can you show me?
     - ==> 그렇다. 현재 모든 요청은 DDM을 통해서 하고 있다. 규모가 큰 것을 PDA 회의에서 논의하고 있다.
+
+- DDM으로 지난 6개월간 몇건의 사용자 요청이 들어왔는지 알 수 있나?[다니엘]
+  - Can you let me know how many requests added in DDM during the last six months?
+    - ==> 1년에 200 건정도
+
+- PCMS란?[다니엘]
+  - What does PCMS stand for?
+    - ==> Patient care management system
+
+- PCMS미팅과 PDA 미팅은 어떻게 다른가?[다니엘]
+  - How is the PCMS meeting different from the PDA meeting?
+- PCMS미팅은 하기로 한것의 진행상황을 체크하는 회의인가?[다니엘]
+  - Is the PCMS meeting to check about the progress of requests that we decided to do?
+
+- 오늘 PCMS 미팅의 안건들도 DDM에 요청이 들어온건들인가?
+
 
 [DDM]
 - DDM 화면 캡처 요청 / 기능을 좀 더 살펴보기[다니엘]

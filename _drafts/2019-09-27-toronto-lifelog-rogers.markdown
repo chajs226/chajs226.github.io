@@ -6,6 +6,8 @@ categories: [Tronto-Lifelog]
 
 ### Royal Ontario Museum
 
+처음으로 메이저리그 경기를 직관했다.
+
 ![museum1](/images/posts/20190928_154311.jpg)
 ![museum2](/images/posts/20190928_150218.jpg)
 ![museum3](/images/posts/20190928_141957.jpg)
