@@ -1,18 +1,16 @@
 ---
 layout: post
-title:
+title: 2019.09.25. [PDA]
 categories: UHN-PLP
 ---
 
+
 [09:00 / Planning, Design and Architecture Weekly Meeting 회의록 추가]
-
-### 2019.09.25 일정
 ### 09:00 / Planning, Design and Architecture Weekly Meeting
-- Q
-  - 뭐하는 미팅인가?  What is this meeting about?
-  - Who(what part) are involved in?
-  - What is EPR?
+Digtal Demand Management로 요청된 사항에 대해 Digital Operation 팀의 PDA 담당과 논의를 하는 미팅이다.
 
+Agenda1. DDM Tracker and Updates
+Agenda2. Any new demands to be assigned
 
 Agenda1. DDM Tracker and Updates
 - OCR 소프트웨어를 찾고 있는데, EPR이랑 통합되어야 하고, 데이터를 페이퍼폼에서 모으길 원한다.(~ 14:50)
@@ -63,43 +61,19 @@ Agenda2. Any new demands to be assigned
 
 - 뭔가 굵직한 프로젝트에 집중하는 느낌. 사소한 프로그램의 수정보다는
 
-### 14:00 / Nancy F/U meeting
+### 14:30 / Nancy F/U meeting
+추가로 궁금한 사항을 물어보기 위해 미팅을 요청함.
 
-[Organazation]
-- 데이터&임플리멘테이션 사이언스팀 인원이 300명이나 되면, 진료과에서 요청하는 프로젝트들이 빠르게 진행될 수 있겠다.
-  - I saw that it's about 70 porjects in the roadmap. Will each proejct be handled by project manager from data&implementation part?
-    - 거의 대부분이 그렇다. 프로젝트별로 여러 매니저가 참여하게 될 수 있다. 그래서 300명 가까운 인원이 있다고 해도, 하나의 프로젝트 여러 매니저를 필요로 하기 때문에 인원이 많을 수 밖에 없다.
-  - You said that there are about 300 people in the data&implementation team. but 300 is almost around the all employees number of one company. generally, how many people will be involved one project??
-    - 거의 대부분이 그렇다. 프로젝트별로 여러 매니저가 참여하게 될 수 있다. 그래서 300명 가까운 인원이 있다고 해도, 하나의 프로젝트 여러 매니저를 필요로 하기 때문에 인원이 많을 수 밖에 없다.
+[조직]
+- 데이터&임플리멘테이션 사이언스팀 인원이 300명이고, 프로젝트 별로 여러 레벨의 매니저가 필요하다. 현재 진행중인 프로젝트가 60~70여개 이고, 한 프로젝트에 여러명이 투입되어 있다.
 
-    [Application]
-- UHN에서 운영하고 있는 프로그램 리스트가 있을까?
-  - Can I see the list of application being used in UHN?
-    - 확인해보기로함. 오퍼레이션 팀 cheif와 먼저 상의하기로 함.
+[어플리케이션]
+- UHN에서 운영하고 있는 프로그램 리스트를 요청했는데, 디지털 오퍼레이션 팀 리더와 어떻게 제공할 수 있을지 상의해보기로 함.
+- 디지털 팀의 각 파트 담당자와 미팅을 요청함.
+- 병원에서 실제 사용하고 있는 프로그램을 볼 수 있는지 요청했고, 이도 디지털 오퍼레이션 팀 리더와 상의해보기로 함.
 
-- 디지털팀 각 담당자 미팅 요청
-  - Can I have a interview with Operation team and Data&implemetation science team? I'd like to ask them sth.
-    - 안드레라는 사람과 미팅 하기로 함.
-
-- 미팅회의록 보내줄 수 있는지?
-  - Actually, I'm not sure what I uderstood is correct or not in the meeting. So if you have a meeting note, can you give it? it will be very helpful.
-    - 공식적인 미팅은 회의록이 남지만, 인포멀한 미팅에서는 안남기는 경우도 많다. 그럴 경우에는 본인이 막 작성한 미팅노트라도 공유해주기로 함.
-
-- 시스템 확인
-  - And I want to see real programs in UHN. is it available to see during 3th weeks?
-    - 이것도 오퍼레이션팀에 먼저 물어보고 알려주기로 함.
-
-    [Digital_Demnad_Management-자료]
-- SME?(3)
-  - IS SME also a kind of team? What kind of member was participated in? Are those leaders of each team?
-    - Subject Manager
-
-- DDM의 요구사항을 받는 주기 / 방법(7)
-  - How do you collect the demand from UHN community? Is there an application? or just writing some documentatnion and send it email to VOC?
-    - 과거에는 이메일로 주로 사용했고, 지금은 SharePoint를 사용한다. 그리고 앞으로는 서비스나우 라는 솔루션을 사용할 예정이다. '피터'랑 미팅을 잡아서 기능에 대해서 자세히 설명해주기로 함.
-  - When I read 19/20 Digital Roadmap Development, I think that you are collect the UHN comunity's demand during only first 4 months. If some demand come up after those period, how do you handle it?
-    - 현실적으로는 그렇게 안된다. 디멘드는 언제라도 들어올 수 있고, 우리는 검토를 할 수 밖에 없다. 매주 미팅에서 new 디맨드에 대해서 검토하는 시간을 갖는다. 정부에서 요구하는 변경안이 급하게 내려오는 경우도 있기 때문에, Priroty를 고려해서 작업을 진행한다.
-
-- EPR이 뭔가? (10)
-  - What is the EPR?
-    - Electronic Patient Record = HIS
+[프로세스]
+- 참석한 미팅의 회의록을 공유받고 싶다고 요청. 공식적인 미팅은 회의록이 남지만, 인포멀한 미팅에서는 안남기는 경우도 많아서, 그런 경우에는 본인이 막 작성한 미팅 노트라도 공유해주기로 함.
+- DDM을 통해 요구사항을 받는 주기
+  - 과거에는 이메일로 주로 사용했고, 지금은 SharePoint를 사용한다. 그리고 앞으로는 서비스나우 라는 솔루션을 사용할 예정이다. '피터'랑 미팅을 잡아서 서비스나우 기능에 대해서 자세히 설명해주기로 함.
+- 년단위로 프로젝트 계획을 세우지만, 현실적으로는 그렇게 운영될 수는 없다. 요구사항은 언제라도 들어올 수 있고, 디지털팀은 그에 대한 검토를 할 수 밖에 없다. 매주 미팅에서 새로운 요청사항에 대해서 검토하는 시간을 갖는다. 정부에서 요구하는 변경안이 급하게 내려오는 경우도 있기 때문에, 우선순위를 고려해서 작업을 진행한다.

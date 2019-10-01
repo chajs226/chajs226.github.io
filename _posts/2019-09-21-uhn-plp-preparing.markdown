@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1.해외 연수 준비
+title: 해외 연수 준비
 tags: UHN-PLP
 categories: UHN-PLP
 ---

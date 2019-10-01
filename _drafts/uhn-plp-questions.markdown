@@ -5,53 +5,67 @@ categories: UHN-PLP
 ---
 
 ### To-Do
-[9/26 14:00 / Clinical Group 자료 받은거 읽어보고 정리]
+[DDM 시연, Share POint 캡처]
 eLearning 해보기
 [9/25 09:00 / Planning, Design and Architecture Weekly Meeting 회의록 받아서 추가 정리]
 [9/26 14:00 / Digital Operating Committee 자료 받아서 추가 정리]
+
 
 ### 멘트
 [미팅-인사]
 - Hi, I'm Junseong Cha from Asan Medical Center in Seoul, Korea. I've been working for 8 years as an IT engineer in the hospital. I heard that there are great people and an advanced process for IT in UHN. While I'm here, I'd like to learn how the digital team works for the hospital. Also, I'm looking forward to having a great time with you. Thank you.
 
 [하는일]
+I used to develop the application. but recently, I've been reassigned to managing small projects, and sometimes I design soem functions of the applications.
 We help medical staff by providing technologies. So we have many meetings with them, and through the meeting, we understand their requirements. So we discuss it with the IT service team. If we decide to do that, the IT service team is planning the schedule by priority. However, if we can't do that, we reply to them about our opinion.
 
 ---
 ### 추가 요청사항/질문사항 데일리
 
-[일반]
-- 랩업 미팅 요청[다니엘]
-  - Can we have a short meeting daily? I have many things to want to ask you. Even though we are sitting nearby and I can ask you whenever I want, but I don't want to bother you. So, Can we have a regular meeting like a daily wrap up meeting?
+- 그럼 UHN을 서포팅하는 특정 기관이 있나??[탄지나]
+  - Is there a specific organization that support to UHN?
 
-- 9.25 미팅 관련[다니엘]
-  - What JDNI stand for? At the meeting, people said that word. But I had no idea.
+
+[일반]
+- 랩업 미팅 요청[낸시]
+  - Can we have a short meeting daily? I have many things to want to ask you. Even though we are sitting nearby and I can ask you whenever I want, but I don't want to bother you. So, Can we have a regular meeting like a daily wrap up meeting?
 
 - 헬스체크 메일[다니엘]
   - What is the health check mail Nancy sent us?
-
-- 미팅 연기 확인[다니엘]
+    - ==> 프로젝트 진행상황에 대해서 비용이 증가하고 있는 프로젝트에 를 주의해서 관리하라는 확인메일임
 
 - 어제 미팅회의록 공유[다니엘]
   - Do you have a meeting note about Weekly Meeting yesterday? Can you send me that? I didn't get about yesterday meeting. so Can  you share it? It would be very helpful for me to understand.
-    - 다니엘이 어제 미팅 담당자에게 미팅노트를 받으면 포워드 해주기로 함.
+    - ==> 다니엘이 어제 미팅 담당자에게 미팅노트를 받으면 포워드 해주기로 함.
+
+- UHN을 지원하는 특정 단체가 있는지?[낸시/탄자냐]
+  - Do you have a specific organization that supports to UHN's budget?
+
+- 회의 할 때 스카이프 연결하던데, 그건 뭐하는건가?[다니엘]
+  - Whenever you have a meeting, you have connected to Skype. What was that for?
+    - ==> 미팅 참석 못하는 경우에는 스카이프로 참석할 수 있게 셋팅을 하는 것이다.
 
 ---
 
 [VOC]
 
 - 그게 DDM으로 요청을 한건지?(PDA 회의에서 논의한 요청사항에 대해) [다니엘]
-  - So, in the Planning, Design and Architecture Weekly Meeting, we discussed what users requested. Did they request it to VOC team through DDM? Can you show me?
+  - So, in the PDA Weekly Meeting, we discussed what users requested. Did they request it to VOC team through DDM? Can you show me?
+    - ==> 그렇다. 현재 모든 요청은 DDM을 통해서 하고 있다. 규모가 큰 것을 PDA 회의에서 논의하고 있다.
 
 [DDM]
 - DDM 화면 캡처 요청 / 기능을 좀 더 살펴보기[다니엘]
   - Can I see the DDM? Can I get a read-only account?
   - Can I take a screen capture?
   - if it's impossible, I'd like to see DDM with you or daniel.. and want to have some screenshot.
+- DDM이랑 서비스 나우랑 어떻게 다 른지, 사용자는 서비스 나누에서 요청하고 그중에서 프로젝트로 관리가 필요한것들이 DDM으로 넘어오는건지? [다니엘]
+  - What I understood is that users request what they want to do about the application through the 'service now'. And some of those could be needed to be managed as a project. Are those things move to DDM?
+    - ==> 앞으로 서비스 나우로 대체될 예정. 내년에 현업한테까지 오픈이 가능할 것 같다. 현재는 DDM으로만 받고 있음.
 
 [Digital_Demnad_Management-자료]
 - 데이터 표준화 관리하는 시스템이 있는지-Data Governance(10)
   - Do you have a system or application for data standardization?
+    - ==> 현재 프로젝트 진행중이다. 담당자에게 미팅을 연결시켜 줄 수 있다.
 
 - Mandatory Requirment에 대해서 설명해줄 수 있는지(10)
   - Can you explain me about mandatory requirment? there are some unfamiliar terms, so it was difficult for me to understand.
@@ -60,6 +74,7 @@ We help medical staff by providing technologies. So we have many meetings with t
 - In Clinical Application Support, what are their's role?
 - Why are so many people needed in the Health Record and Transcription Unit?
   - Health Record... 여기가 EMR? 처방,간호,검사,원무 모두 포함하는 건가?
+    - ==> 여기는 개발자 그룹이 아니다. 의사가 말로 설명하면, 처방/기록 입력을 대행해주는 인력들이다.
 
 ---
 
