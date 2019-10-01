@@ -25,8 +25,10 @@ We help medical staff by providing technologies. So we have many meetings with t
 - 그럼 UHN을 서포팅하는 특정 기관이 있나??[탄지나]
   - Is there a specific organization that support to UHN?
 
-
 [일반]
+- 프로그램 요청. 팀을 돌아다니면서 배울 수 있게 해달라[달리아]
+    - From last week, I've learned about the user requirements management process through many meetings with the VOC unit. Moreover, Nancy and Daniel helped me a lot about what I want to learn. However, I want to learn more about Digital Operation and implementation part. So can I move into the digital operation team or implementation team during the rest of our program?
+
 - 랩업 미팅 요청[낸시]
   - Can we have a short meeting daily? I have many things to want to ask you. Even though we are sitting nearby and I can ask you whenever I want, but I don't want to bother you. So, Can we have a regular meeting like a daily wrap up meeting?
 
