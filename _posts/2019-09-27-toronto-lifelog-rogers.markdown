@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Royal Ontario Museum
+title: Regers Centre
 categories: [Tronto-Lifelog]
 ---
 
