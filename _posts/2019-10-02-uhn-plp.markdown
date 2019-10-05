@@ -1,0 +1,14 @@
+---
+layout: post
+title: 2019.10.02 [ServiceNow]
+categories: UHN-PLP
+---
+
+### 2019.10.02
+특별한 일정없이, Service Now 발표자료를 요청해서 살펴봤다.
+그리고 Daniel에게 Digital Operations 팀과의 미팅을 잡아달라고 다시 한번 요청했다. HIS 시스템 운영을 담당하는 Tony와 ESB 시스템을 담당하는 Laura에게 미팅 요청 메일을 보냈다.
+
+VOC 운영 프로세스에 대한 장표를 작성하면서 틈틈히 궁금한 점을 Daniel에게 문의해서, 자료를 받았다.
+
+### 2019.10.03
+Digital Operations 팀과의 미팅을 위한 질문지를 작성했고, 이를 담당자들에게 미리 메일로 발송했다.

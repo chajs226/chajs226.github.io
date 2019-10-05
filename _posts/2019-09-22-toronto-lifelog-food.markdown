@@ -20,7 +20,7 @@ tag: 음식, 식당, 맛집
 
 회사 옆에 나름 괜찮은 한국 식당을 찾았다. 여기선 드물게 기본 반찬까지 나온다. 부대찌개를 시켰는데, 내용물도 실하다. 찌개가 땡길때마다 오게 될 것 같다. 여기서 캐나다 맥주를 처음 경험했다. 맥주 맛은 그저 그렇다.
 - 방문일: 2019.09.26
-- 별점: ★★★☆
+- 별점: ~~★★★☆~~ ★★★★ (10/4 김치찌개를 먹었는데, 맛있어서 별 반개 더 추가)
 - [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%86%A0%EB%A1%A0%ED%86%A0+%EB%B0%A5%EB%B3%B4&oquery=%ED%86%A0%EB%A1%A0%ED%86%A0+%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC&tqi=Uh%2FVawprvxZssj7TSyVsssssttV-214445)
 
 

@@ -4,15 +4,14 @@ title: Royal Ontario Museum
 categories: [Tronto-Lifelog]
 ---
 
-### Royal Ontario Museum
+### Regers Centre
 
-처음으로 메이저리그 경기를 직관했다.
+로저스 센터에서 메이저리그 경기를 직관했다. 토론토 vs 템파베이 경기.
 
-![museum1](/images/posts/20190928_154311.jpg)
-![museum2](/images/posts/20190928_150218.jpg)
-![museum3](/images/posts/20190928_141957.jpg)
-![museum4](/images/posts/20190928_135724.jpg)
-![museum5](/images/posts/20190928_135324.jpg)
-![museum3](/images/posts/20190928_132939.jpg)
-![museum3](/images/posts/20190928_131229.jpg)
-![museum3](/images/posts/20190928_130352.jpg)
+
+![logers3](/images/posts/20190927_181303.jpg)
+
+![logers1](/images/posts/20190927_195941.jpg)
+
+![logers2](/images/posts/20190927_194108.jpg)
+유일하게 안면이 있는 선수인 게레로 주니어
