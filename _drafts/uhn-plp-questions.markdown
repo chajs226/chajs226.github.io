@@ -5,10 +5,6 @@ categories: UHN-PLP
 ---
 
 ### To-Do
-[DDM 시연, Share POint 캡처]
-eLearning 해보기
-[9/25 09:00 / Planning, Design and Architecture Weekly Meeting 회의록 받아서 추가 정리]
-[9/26 14:00 / Digital Operating Committee 자료 받아서 추가 정리]
 
 
 ### 멘트
@@ -22,10 +18,166 @@ We help medical staff by providing technologies. So we have many meetings with t
 ---
 ### 추가 요청사항/질문사항 데일리
 
-낸시 요구사항
+- 디지털오퍼레이션팀(유헬스팀) 옆에서 같이 보면서 배우면 안될까?
+  - Can I have my place move to your team? I want to learn how your team works nearby. And I'd like to see what they do and what program they use.
 
+- 그룹웨어 뭐쓰나??
+- SharePoint intake form 캡쳐 요청
+
+
+[요구사항]
+로그 메시지 스크린샷
+ESB 구성도
+
+[Digital-Operation]
+
+<Organization>
+1.	Could you explain to me what do people do in each part? 각파트의 사람들이 하는일은?
+  ====> 궁금한 부서만 다시 확인해서 물어보기
+
+<HIS>
+캡처 - 서비스나우 리퀘스트
+EPR - 메인화면
+
+
+- 서비스 나우에 프로그램 새기능, 수정 요청도 들어오나?
+  - Do you receive the requirments about new functions of EPR from Service Now?
+
+- I heard that EPR Facility Merge Project have gone live last week. Do you know how long does it take? whole proejct period? EPR 통합 프로젝트에 걸린기간은?
+  - ====> 전체 2년이 걸림.
+
+- What kinds of modules does EPR include? I received EPR FACILITY EMERGE project go-live support documents. Is that all about the EPR modules? 어떤 모듈들로 구성되어 있는지?
+  - ====> 메인화면 스크린 샷.. 전체 모듈에 대한 구성도는 없음. 스크린샷을 보고 대충 정리해야할 듯.
+
+A.	Do you have a whole source of EPR? EPR소스를 가지고 있는지?
+
+H.	How many requirements for modify or add functions are your team receiving from users one month? 한달에 HIS수정 요구사항이 몇건이나 들어오는지?
+
+
+
+- What kinds of languages and framework are used for HIS? 뭘로 개발되어 있는지? 클라이언트/서버 사이드?
+  -
+
+B.	Can I see the architecture diagram of HIS? HIS아키텍처 설계도 볼 수 있을지?
+
+E.	How many instances of HIS is operating? 인스턴스는 몇개 띄워져있는지?
+
+F.	What kinds of vender are you using in WAS and DB? WAS,DB는 어디껄 쓰는지?
+
+C.	How many environments of HIS set in UHN besides live? For example, it's for developing, testing, stagging, educating. HIS 운영외 개발, 테스트, 교육 환경이 있는지?
+  - ====> 운영, 개발, 테스트, 교육 있음.
+
+D.	Do you have an environment for High-Availability? 이중화되어있는지?
+  - =====> 이중화구성
+
+G.	The digital operation team has about 200 people. Also, I know that UHN is using the Harris system as a HIS. Harris is not an in-house product. However, is it possible to modify the application by the digital operation team? HIS가 솔루션제품인걸 아는데, 수정하는게 가능한지?
+  - ====> 솔루션이지만 들어와서 수정을 했고, 커스터마이징이 가능하다. 기능추가 등을 하고 있다.
+
+
+I.	Is there a clinical decision support system for the doctor? CDSS 기능이 있는지?
+
+K.	How to make EMR forms? Are there employees in charge of it in the hospital? EMR 서식은 어떻게 만드는지 담당직원이 있는지?
+
+L.	How to manage screen access authorities of users? 화면권한은 어떻게 관리하는지?
+
+M.	Do you have policies or rules to protect the patient’s privacy? 환자권한은 어떻게 관리하는지?
+
+N.	Is there a session timeout? 세션 타임아웃있는지?
+
+O.	Do you have a single-sign-on function? If you have one, how many systems are connected? SSO를 사용하는지?
+
+<Software Quality Management>
+1.	I’d like to know what kinds of documents you write under the software development life cycle. 설계, 개발 프로세스에서 어떤 문서들을 남기는지?
+
+2.	Do you have any process for software quality management? For example, do you have the coding rule? Also, do you have a code inspection tool or peer coding process? SW품질관리를 위한 별도의 툴을 사용하는지?
+
+3.	Do you do code review regularly? How often do you do a code review? 코드 리뷰같은건 하는지?
+
+4.	Do you have a technical study group or some gatherings? 스터디 그룹같은게 활성화되어 있는지?
+
+
+<Software Development Life Cycle>
+1.	Analysis
+  A.	I'd like to see your development process from getting requirements from users to releasing the application. 개발프로세스를 알고 싶다.
+
+  B.	Do you have meetings with end-users to understand their requirements? 엔드유저와의 미팅이 있는지?
+
+  C.	Do you write documents abou  t analyzing user requirements? 사용자요구사항 분석 문서를 남기는지?
+
+2.	Design
+  A.	Do you write some design papers, when you develop the application? For example, Use case diagram, DFD, like that. 설계문서는 어떤걸 쓰는지?
+
+  B.	If you write design documents, do you have a tool to draw diagrams? 다이어그램을 그리기 위해 툴을 쓰는게 있는지?
+
+3.	Development
+  A.	What are you using source version control software? 소스버전컨트롤 프로그램으로 뭘쓰는지?
+
+  B.	Do you use open source a lot when you develop applications? 개발할때 오픈소스 많이 쓰는지?
+
+  C.	How to interoperate data between HIS and other systems? Is there any application for that? HIS랑 레거시랑 데이터 연계를 어떻게 하는지?
+
+  D.	What kinds of languages do you use mainly? 주로 어떤 랭귀지를 쓰는지?
+
+4.	Testing
+  A.	How do you know the impact with related application, when you add some functions to the application? Is there a system or process to check about it? 기능 추가시, 연계 테스트는 어떻게 하는지?
+
+  B.	Do you use automating test software? 테스트 자동화 툴이 있는지?
+
+5.	Maintenance
+  A.	What kinds of software are you in charge? Can I see the list about it? 오퍼레이션팀에서 관리하는 프로그램 리스트는?
+
+  B.	Do you have all infrastructures like server, machine in the hospital? 인프라가 전부 병원 안에 있는지?
+
+  C.	There are many people in the infrastructure unit. Is that because people are in charge of different infrastructures every application?
+
+  D.	How do you catch the error in the live system? Is there any monitoring system? 운영시스템의 에러를 어떻게 잡는지/찾는지?
+
+  E.	How often do you deploy or release applications that are operating? 얼마나 자주 배포를 하는지?
+
+  F.	How long does it take time to deploy applications? How long does it take time to restart WAS? 배포하는데 시간은 얼마나 걸리는지?
+
+  G.	In my hospital, IT service team members are always ready to on-call because medical staff are working even though during the holiday. If they have a problem with the HIS, the IT service team has to help them. Because sometimes something emergency comes up. How does your team do that situation? 시스템에 오류가 나서 현업의 문의가 오면 어떻게 대응하는지? 주말에는?
+
+  H.	Is the help desk working 24/7? If you don't do that when users meet an error on holiday, how to support them? 24시간 운영되는 헬프데스크가 있는지?
+
+  I.	What kinds of solutions do you have, and what kinds of applications did you develop in-house? 솔루션 리스트와 인하우스로 개발된 리스트?
+
+  J.	what kinds of mobile services are operating now? 모바일 프로그램은 뭐있는지?
+
+  K.	Is it possible to use the cloud service in the hospital? Do you have any system operating in the cloud now? 클라우드 사용이 가능한지? 사용하는게 있는지?
+
+
+
+<about-ESB>
+1. What do you in charge of in Digital Opeartions Team? 디지털팀에서 맡은역할은? [로라]
+  - ====> ESB 시스템을 관리(Red Hat Fuse)
+
+2. How many systems are communicating with ESB? Can I see the list of those systems? ESB를 통해서 HIS와 연계되는 시스템 종류?[로라]
+- ====> EPR과 HL7로 연계하는 건수는 185 건이다.
+- 다른 방식의 연계 시스템은 몇건인지 정확히 알수없지만, Diagram을 보면 한눈에 알 수 있을 듯하다.
+
+2. I'd like to know the data integration methodology that you are using. 연계방식이 어떤게 있는지? [로라]
+- HL7
+- JSON
+- REST
+- SOAP
+- ====> 요것도 Diagram받으면 확인 가능
+
+3. Is there another system to communicate with the external system? EAI솔루션 하나인지? 외부/내부 연계 시스템이 별도로 있는지?[로라]
+- ====> 하나만 있음
+
+4. I'd like to see monitoring system of ESB 관리콘솔좀 볼 수 있는지[로라]
+  - How do you catch errors?
+  - How Does the ESB system notify you of errors?
+  - ====> Prometheus - 오픈소스 모니터링 시스템 / 설정값에 따라 메일로 인폼을 줄 수 있음
+  - ====> grafanaLabs - 로그 비주얼라이징
+
+6. Is it ok with the system average load? In our case, more and more systems want to communicate with main HIS system. 시스템 부하는 괜찮은지? 부하가 많이 몰리지는 않는지? [로라]
+  - ====> 초당 75건까지 피크를 친것을 보여줌. 전체적으로 안정되어 있음.
+---
 
 [일반]
+
 - 팀을 옮겨가며 보고 배울 수 있게 해달라.[낸시]
   - Can I transfer to the digital Operations, and Data Science & Implementation team? I want to see their work close, So I want to be with digital operations team next week, and with the data science team the week after next.
 
@@ -141,123 +293,6 @@ We help medical staff by providing technologies. So we have many meetings with t
     - Health Record... 여기가 EMR? 처방,간호,검사,원무 모두 포함하는 건가?
       - ====> 여기는 개발자 그룹이 아니다. 의사가 말로 설명하면, 처방/기록 입력을 대행해주는 인력들이다.
 
----
-
-[Digital-Operation]
-
-<조직>
-- Application Engineering 파트에서는 무슨 일을 하는가? / 인원이 엄청 많은데?
-  - What do people in Application Engineering part do? What are they in charge?
-  - DO they add new functions to HIS, which is harris system?
-
-- Clinical Application Support는 무슨일을 하는가?
-  - What are the people's jobs in the Clinical Application Support part? Do they just help doctors inputting the data?
-
-- 인프라 스트럭쳐 인원이 많은데, 실제 서버를 병원에 두고 있나?
-  - There are so many people in charge of infrastructure. Do you have all infrastructures like server, machine in the hospital?
-
-- 솔루션, 프로그램 별로 인프라 담당자가 별도로 있는가?
-  - That's because people are in charge of different infrastructures every application?
-
-<일반/문화>
-- 어떤 프로그램들을 운영하고 있나? 리스트를 볼 수 있을까?
-  - What kinds of software are you in charge? Can I see the list about it?
-
-- 코드리뷰는 얼마나하니?
-  - Do you do code review? How often do you do a code review?
-
-- 그룹 스터디 문화는 있니?
-  - Do you have a technical study group or some gatherings?
-
-
-<운영/배포>
-- 운영 - 수정요청부터 배포까지 과정을 알고 싶다.
-  - I'd like to see your development process from getting requirements from users to developing and deploying the application.
-
-- 운영에서 오류가 나면 어떻게 캐치하고 수집하나?
-  - How to catch the error in the live system? Is there any monitoring system?
-
-- 운영중인 시스템의 릴리즈/배포는 어느주기로 하니?
-  - How often do you deploy or release applications that are operating?
-
-- 테스트 할때 오류가 없다는 것을 어떻게 보장하고 릴리즈 하나요?
-  - How to know the impact with related application, when you add some functions to the application? Is there a system or process to check about it?
-
-- 품질관리를 위한 프로세스가 있나요? 코드점검 등의..
-  - Do you have any process for software quality management? For example, Do you have the coding rule? Also, Do you have a code inspection tool? Peer coding process?
-
-- 소스 형상관리 툴은 뭘쓰나요?
-  - What are you using in source version control software?
-- 아키텍처, WAS 배포에 시간 얼마나 걸리는지? 재기동 시간은 어떤지?
-  - How long does it take to deploy application? How long is the WAS restart time?
-
-- HIS 는 이중화 되어 있나?
-  - Do you have an environment for High-Availability?
-
-- 인스턴스는 몇개 떠있는지
-  - How many instances of HIS is operating?
-
-- WAS랑 데이터 베이스는 어떤거 쓰는지?
-  - What kinds of vender are you using in WAS and DB?
-
-- 클라우드
-  - Is it possible to use the cloud service in the hospital? Do you have any system operating in the cloud now?
-
-- HIS의 환경은 어떻게 구성되어있나요? 교육? 테스트? 등?
-  - How many environments of HIS set in UHN besides live? For example, it's for developing, testing, stagging, educating.
-
-- 우리는 IT서비스팀 사람들은 주말에도 거의 on-call 상태이다. 주말에 쓰다가 오류가 나면, 원격으로 봐주고 있다. 서비스 운영을 맡고 있는 여기 직원들은 어떤가?
-  - In my hospital, IT service team members are always ready to on-call because medical staff are working even though during the holiday. If they have a problem with the HIS, the IT service team has to help them. Because sometimes something emergency comes up. How does your team do that situation?
-
-- 헬프데스크는 24시간 운영되나?
-  - Is the help desk working 24/7? If you don't do that when users meet an error on holiday, how to support them?
-
-
-
-<개발>
-- 언어는 어떤걸 쓰니?
-  - What kinds of languages are used most?
-
-- 인하우스 시스템은 뭐뭐 있니? 오픈소스는 많이 쓰니?
-  - Do you have applications that developed in-house?
-  - Do you use open source a lot?
-
-- 장표에서 오퍼레이션팀의 인원이 많은데, 아직도 프로그램의 수정이 많이 일어나는지? Harris라는 시스템을 쓰고 있는데, 자체적으로 수정하는 것이 가능한가?
-  - The digital operation team also has about 200 people. Also, I know that UHN is using harris as a HIS. Harris is not an in-house product. However, is it possible to modify the application by the digital operation team? Also, How many requirements are for one month?
-
-- 솔루션 뭐가 있고, 자체 개발한 프로그램은 뭐있는지?
-  - What kinds of solutions do you have and what kinds of applications did you develop in-house?
-
-- 시스템간에 연계는 어떻게 하는가?
-  - How to interoperate data between HIS and other systems? Is there any application for that?
-
-- 모바일 종류
-  - what kinds of mobile services are operating now?
-
-- 개발할떄 설계문서를 작성하나요? 어떤 다이어그램을 쓰나요?
-  - Do you write some design papers, when you develop the application? For example, Use case diagram, DFD, like that.
-
-- 개발언어는 주로 어떤걸 쓰나요?
-  - What kinds of languages do you use mainly?
-
-
-<HIS>
-- CDSS 기능은 있는지?
-  - Is there a clinical decision support system for the doctor?
-
-- EMR 보여줘. EMR서식은 어떻게 만들어?
-  - Could you show me the EMR system and how to use it?
-  - How to make EMR forms? Are there employees in charge of it in the hospital?
-
-- 화면 권한 관리
-  - How to manage screen access authorities of users?
-
-- 환자 권한 관리
-  - Do you have policies or rules to protect the patient’s privacy?
-
-- 공통-SSO
-  - Is there a session timeout?
-  - Do you have a single-sign-on function? If you have one, how many systems are connected?
 
 
 ---
@@ -270,6 +305,8 @@ We help medical staff by providing technologies. So we have many meetings with t
 
 - 어떤 프로세스로 프로젝트를 매니징하나?
   - Can you explain to me the process of managing the project? for example, how do you check if what you want is made, or not? And how do you check the project deadline?
+
+- 사이언스팀에서 관리하고 이는 프로젝트 리스트는 뭐가 있는지?
 
 [eHealth-Innovation]
 - 음성처방입력이나, AI기술이 진료에 활용되는 사례가 있을까요?

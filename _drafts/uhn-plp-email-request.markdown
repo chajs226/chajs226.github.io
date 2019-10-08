@@ -4,6 +4,60 @@ title: Quenstions
 categories: UHN-PLP
 ---
 
+#### Jo Meeting
+[미팅-인사]
+- Hello,
+I'm Junseong Cha from Asan Medical Center in Seoul, Korea. I've been working for 8 years as an IT engineer in the hospital.
+I used to develop software, but recently I moved to Business Architecture unit of the Digital Strategy team. So I'm now in charge of analyzing hospital business and managing small projects.
+
+I heard that the eHealth team has advanced skills in software developing.
+So I'm interested in the software development process. And I'd like to know some applications that use new technologies, such as bigdata, AI, IoT, somethig like that.
+
+So, I thought of some questions in advance for our meeting. Can I ask you about this?
+
+Also, If it's possible, can I observe how your team works?
+And can I have some samples of documents about designing, or architecture?
+
+
+#### To, Tony
+Hello Tony,
+
+I'm Jun.
+
+I'm sending more organized-questions again because I sent a messy questions list before. I'm sorry for that.
+
+I've been with the VOC team, and Nancy and Daniel helped me a lot, so I was able to understand how they work so far.
+
+If you don't mind, can I be with your team this week? I want to join your team and observe how you work by attending meetings and having interviews. Also, if it's possible, can I have my place move to your team? I want to learn how your team works nearby.
+
+Thank you very much.
+Jun
+
+#### Jo
+
+-- HL7의 활용. UHN에서는 데이터 정규화가 되었나? HL7을 적용했나? 그에 대한 프로젝트나 작업이 있는지?
+-- 개발 프로세스가 궁금하다. 무결한 릴리즈를 위한 표준화된 프로세스를 배우고 싶다.
+-- 빅데이터, AI기술을 이용해서 병원에 적용한 솔루션이 있는지?
+
+Hello Jo Cafazzo,
+I'm Junseong Cha from Asan Medical Center, Seoul, Korea. I'm participating in the Personal Learning Program at UHN.
+
+Dalia helped me to have a meeting with you at 10:30, 8th Oct. Thank you for your time. Also, I'm looking forward to meeting you soon.
+
+Before our meeting, I think that it's better to let you know my interests.
+
+Here are my interests:
+1. Do you have some applications that are using new technologies such as IoT, AI?
+2. I'd like to learn about your team's development process.
+3. I heard that your team has open sources about HL7. Is UHN using that now?  Are there applications that are using HL7 in UHN?
+
+And attachments are some detailed questions.
+
+I appreciate that you help me.
+
+Thank you.
+
+
 
 #### To, Laura
 Hello,
