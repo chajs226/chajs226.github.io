@@ -4,6 +4,45 @@ title: Quenstions
 categories: UHN-PLP
 ---
 
+
+#### To, Tony
+Hi Tony,
+
+Thank you for your screenshots and for helping me a lot. It was such a helpful meeting.
+
+And I'm sorry for bothering you. But there is something that I forgot to ask you.
+
+1. When you deploy new functions to live server from test server, do all modified parts in test deploy to live, otherwise can you select some of them to deploy to live?
+
+2. Before you release new functions, do users also involve in the test? Do they write some test result documents? If it does, can you show me an example?
+
+3. Can you send me SOP(Standard Operate Procedure) documents? If it's so big, Can you send me some part of it? Because It would be a helpful reference for our team.
+
+4. Can you give me two more screenshots? The one is the screen of making a new EPR screen. And another one is the screen of a release history page, which is containing request ID.
+
+
+Sorry for asking again, and Thank you so much for helping me.
+
+
+Thanks,
+Junseong.
+
+
+#### To, Laura
+
+Hi Laura,
+
+It was such a helpful meeting yesterday. Thank you for your time.
+
+And I'm emailing you because I remind you about what I asked.
+Could you help me to arrange a meeting with Rene? Also, Can I get the ESB diagram that you showed me?
+
+It would be helpful for PLP. Thank you so much for helping me.
+
+Thanks,
+Junseong.
+
+
 #### Jo Meeting
 [미팅-인사]
 - Hello,

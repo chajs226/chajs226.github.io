@@ -53,13 +53,10 @@ A.	Do you have a whole source of EPR? EPR소스를 가지고 있는지?
 
 H.	How many requirements for modify or add functions are your team receiving from users one month? 한달에 HIS수정 요구사항이 몇건이나 들어오는지?
 
-
-
 - What kinds of languages and framework are used for HIS? 뭘로 개발되어 있는지? 클라이언트/서버 사이드?
   -
 
 B.	Can I see the architecture diagram of HIS? HIS아키텍처 설계도 볼 수 있을지?
-
 E.	How many instances of HIS is operating? 인스턴스는 몇개 띄워져있는지?
 
 F.	What kinds of vender are you using in WAS and DB? WAS,DB는 어디껄 쓰는지?
@@ -72,7 +69,6 @@ D.	Do you have an environment for High-Availability? 이중화되어있는지?
 
 G.	The digital operation team has about 200 people. Also, I know that UHN is using the Harris system as a HIS. Harris is not an in-house product. However, is it possible to modify the application by the digital operation team? HIS가 솔루션제품인걸 아는데, 수정하는게 가능한지?
   - ====> 솔루션이지만 들어와서 수정을 했고, 커스터마이징이 가능하다. 기능추가 등을 하고 있다.
-
 
 I.	Is there a clinical decision support system for the doctor? CDSS 기능이 있는지?
 
@@ -125,6 +121,7 @@ O.	Do you have a single-sign-on function? If you have one, how many systems are 
 
 5.	Maintenance
   A.	What kinds of software are you in charge? Can I see the list about it? 오퍼레이션팀에서 관리하는 프로그램 리스트는?
+    - ====> EPR. 나머지는
 
   B.	Do you have all infrastructures like server, machine in the hospital? 인프라가 전부 병원 안에 있는지?
 
