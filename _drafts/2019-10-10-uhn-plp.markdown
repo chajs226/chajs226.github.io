@@ -1,0 +1,26 @@
+---
+layout: post
+title: 2019.10.10 [Nurse Workshop]
+categories: UHN-PLP
+---
+
+### 08:30 / EPR Nurse Workshop
+- 자기소개
+- kahoot - ice breaker 로 간단한 게임으로 시작
+- EPR TrainA 환경에 접속해서 교육시작
+  - 모두 동일한 아이디를 사용
+
+- 처방입력
+  - 의사가 전화로 처방을 지시하는 롤플레이를 했는데, 약간의 잘문이 쏟아짐. 처방을 의사가 직접 넣는경우도 있고, 간호사가 대행하는 경우도 있고, 유닛별로 다른가봄. 처방입력하는 실습에서 정확한 처방을 우리가 어떻게 낼 수 있느냐,, 약용량 등..에 대한 문의가 있었음.
+
+
+----
+
+우리도 stable한 형태의 교육서버를 만들어야 함.
+
+
+
+### 15:00 / Rene Meeting
+Collaboration Tool
+Clinical Portal
+White Board

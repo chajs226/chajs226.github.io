@@ -17,12 +17,16 @@ We help medical staff by providing technologies. So we have many meetings with t
 
 ---
 ### 추가 요청사항/질문사항 데일리
+- 재단
+
+- 메신저 프로그램
+  - ====> 공식적으로는 스카이프를 씀. 개발팀 프로젝트 파트에 따라서 teams나 slack을 쓰는 파트도 있음
+
+
 
 - 디지털오퍼레이션팀(유헬스팀) 옆에서 같이 보면서 배우면 안될까?
   - Can I have my place move to your team? I want to learn how your team works nearby. And I'd like to see what they do and what program they use.
 
-- 그룹웨어 뭐쓰나??
-- SharePoint intake form 캡쳐 요청
 
 
 [요구사항]
@@ -42,6 +46,7 @@ EPR - 메인화면
 
 - 서비스 나우에 프로그램 새기능, 수정 요청도 들어오나?
   - Do you receive the requirments about new functions of EPR from Service Now?
+    - ====> 아직은 아님. 헬프데스크로 들어오는 이슈건만 받고 있음. 향후에는 서비스 나우로 모두 이관될 예정
 
 - I heard that EPR Facility Merge Project have gone live last week. Do you know how long does it take? whole proejct period? EPR 통합 프로젝트에 걸린기간은?
   - ====> 전체 2년이 걸림.
@@ -50,19 +55,23 @@ EPR - 메인화면
   - ====> 메인화면 스크린 샷.. 전체 모듈에 대한 구성도는 없음. 스크린샷을 보고 대충 정리해야할 듯.
 
 A.	Do you have a whole source of EPR? EPR소스를 가지고 있는지?
+  - ====> 소스는 없음
 
 H.	How many requirements for modify or add functions are your team receiving from users one month? 한달에 HIS수정 요구사항이 몇건이나 들어오는지?
+  - ====> 10~20건정도
 
 - What kinds of languages and framework are used for HIS? 뭘로 개발되어 있는지? 클라이언트/서버 사이드?
-  -
+  - 알수없음. 패키지라서 관리하지 않는다.
 
 B.	Can I see the architecture diagram of HIS? HIS아키텍처 설계도 볼 수 있을지?
 E.	How many instances of HIS is operating? 인스턴스는 몇개 띄워져있는지?
+  - ====> 없음
 
 F.	What kinds of vender are you using in WAS and DB? WAS,DB는 어디껄 쓰는지?
+  - ====> 업체 자체 솔루션 Cache라는 디비를 씀
 
 C.	How many environments of HIS set in UHN besides live? For example, it's for developing, testing, stagging, educating. HIS 운영외 개발, 테스트, 교육 환경이 있는지?
-  - ====> 운영, 개발, 테스트, 교육 있음.
+  - ====> 운영, 개발, 테스트, 교육1,2 있음.
 
 D.	Do you have an environment for High-Availability? 이중화되어있는지?
   - =====> 이중화구성
@@ -71,25 +80,35 @@ G.	The digital operation team has about 200 people. Also, I know that UHN is usi
   - ====> 솔루션이지만 들어와서 수정을 했고, 커스터마이징이 가능하다. 기능추가 등을 하고 있다.
 
 I.	Is there a clinical decision support system for the doctor? CDSS 기능이 있는지?
+  - ====> 없음.
 
 K.	How to make EMR forms? Are there employees in charge of it in the hospital? EMR 서식은 어떻게 만드는지 담당직원이 있는지?
+  - ====> 있다.
 
 L.	How to manage screen access authorities of users? 화면권한은 어떻게 관리하는지?
+  - ====> EPR에 내재된 기능으로 관리
 
 M.	Do you have policies or rules to protect the patient’s privacy? 환자권한은 어떻게 관리하는지?
+  - =====> 환자권한 롤로 우리처럼 디테일하게 관리하지 않는다. 역할에 화면에 대한 권한과 환자에 대한 권한이 약간 섞여 있다.
 
 N.	Is there a session timeout? 세션 타임아웃있는지?
+  - ====> 있다. 보통은 10분. 개인공간은 1시간까지 허용한다.
 
 O.	Do you have a single-sign-on function? If you have one, how many systems are connected? SSO를 사용하는지?
+  - ====> LDAP을 쓴다. LDAP을 쓰는 시스템끼리 아이디, 패스워드는 동일하게 쓰지만 SSO 는 아니다.
 
 <Software Quality Management>
 1.	I’d like to know what kinds of documents you write under the software development life cycle. 설계, 개발 프로세스에서 어떤 문서들을 남기는지?
+  - ====> 안남김
 
 2.	Do you have any process for software quality management? For example, do you have the coding rule? Also, do you have a code inspection tool or peer coding process? SW품질관리를 위한 별도의 툴을 사용하는지?
+  - =====> Atlassian
 
 3.	Do you do code review regularly? How often do you do a code review? 코드 리뷰같은건 하는지?
+  - =====> 아니
 
 4.	Do you have a technical study group or some gatherings? 스터디 그룹같은게 활성화되어 있는지?
+  - =====> 아니
 
 
 <Software Development Life Cycle>
@@ -230,6 +249,14 @@ O.	Do you have a single-sign-on function? If you have one, how many systems are 
 ---
 
 [VOC]
+
+Potential Outcomes during this phase:
+•	Approval of the project by the VOC leads which, depending on the size of the demand, can result in either;
+  o	Adding to the Digital Roadmap
+  o	Bringing forward to IDMT for approval
+- What does IDMT stand for ?
+
+
 - ERP쪽 요구사항은 안받는지?
 
 - VOC파트에서 Education and Patient Experience Portfolios 의 역할은?
@@ -295,15 +322,25 @@ O.	Do you have a single-sign-on function? If you have one, how many systems are 
 ---
 
 [Data&Implemntation-Science]
+- 이팀의 역할은?
+  - What is this team in charge of?
+
+- 사이언스팀에서 관리하고 이는 프로젝트 리스트는 뭐가 있는지?
+  - What projects are going on under this team?
+
 - 프로젝트를 진행하면서 어떤 운영팀에서는 어떤 문서화를 남기는지??[Garry]
+  - What kinds of documents your team write on the project (going on)?
+  - Can you share me some samples of these documents?
 
 - 프로젝트 관리를 위한 툴을 사용하는게 있는가?
-  - Do you have a tool or application to manage the project?
+  - Do you use any tools or applications to manage the project?
+
+- 원하는게 잘 만들어졌는지 어떻게 검증하나?
+  - How do you guarantee what you want to make was made? Do you have any process or method to check it?
 
 - 어떤 프로세스로 프로젝트를 매니징하나?
   - Can you explain to me the process of managing the project? for example, how do you check if what you want is made, or not? And how do you check the project deadline?
 
-- 사이언스팀에서 관리하고 이는 프로젝트 리스트는 뭐가 있는지?
 
 [eHealth-Innovation]
 - 음성처방입력이나, AI기술이 진료에 활용되는 사례가 있을까요?
