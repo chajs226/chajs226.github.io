@@ -320,10 +320,39 @@ Potential Outcomes during this phase:
 
 
 ---
+[토니질문]
+- 캡처 새로받기
+- 온콜당직 돌아가면서 하는건가
+  - You said that during the daytime, two people receive the call from the helpdesk or user, and during the night time, one person receives the call. So, Do they work by turn?
+- 운영배포할때 1년에 8번 벤더에서 지원을 들어오나?
+  - When you deploy your software to live system, Does venders visit here and support to digital team?
+
 
 [Data&Implemntation-Science]
 - 이팀의 역할은?
+- 팀의 역할에 대해 정의된 문서가 있는지? 공유가 가능한지?
   - What is this team in charge of?
+  - Is there a document that defines your team's role? Can you share it with me?
+
+- 구체적으로 프로젝트 매니징의 어떤일을 하는 것인지?
+  - What is the specific work on project managing?
+
+- 인원이 얼마나 되는지? 그들 전부 프로젝트 매니징을 하는가?
+  - how many people belong to Data Science & implementation team?
+  - Do they all in charge of project managing?
+
+- 프로젝트 성격/파트별로 팀내 전담인력이 정해져 있는것인지?
+- 프로젝트 완료되면, 또 다른 프로젝트를 맡아서 PM의 역할을 하는 것인지?
+  - It's like that there is no sub part title in this team. Don't they have their own speicific part?
+
+- 팀이름의 데이터 사이언스 측면에서 진행되는 일이 있는지?
+  - Is there a project about data science?
+
+- 사이트 매니지먼트 팀은?
+  - What is the site management team?
+
+- PDA팀음?
+  - What is the PDA team?
 
 - 사이언스팀에서 관리하고 이는 프로젝트 리스트는 뭐가 있는지?
   - What projects are going on under this team?
@@ -331,6 +360,7 @@ Potential Outcomes during this phase:
 - 프로젝트를 진행하면서 어떤 운영팀에서는 어떤 문서화를 남기는지??[Garry]
   - What kinds of documents your team write on the project (going on)?
   - Can you share me some samples of these documents?
+
 
 - 프로젝트 관리를 위한 툴을 사용하는게 있는가?
   - Do you use any tools or applications to manage the project?
