@@ -21,6 +21,13 @@ categories: UHN-PLP
 
 
 ### 15:00 / Rene Meeting
-Collaboration Tool
-Clinical Portal
-White Board
+- Collaboration Tool
+- Clinical Portal (EPR이 오래되어서 좀 더 편리한 기능을 여기서 제공한다.))
+  - 차트 페이션트 페이지
+  - 트랜스크립션 노트(12가지 종류가 있음) / EPR로 처방을 보낸다.
+  - OR 노트 / 노티파이해준다. 어디션되었을 때 메일보내주거나.
+  - 환자를 조회가능함. ESB로부터 가져옴
+- White Board
+  - 응급실에서 사용. 환자 리스트가 있고, 응급실 환자의 치료/처치/진료 진행상태롤 대시보드 형식으로 확인하는 프로그램
+  - Java로 작성
+  - 매주 릴리즈함.

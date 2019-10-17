@@ -1,0 +1,37 @@
+---
+layout: post
+title: 2019.10.16 [TOUCHBASE]
+categories: UHN-PLP
+---
+
+
+### 09:00 / Tony 회의
+궁금한 부분이 있어서, 다시 회의를 요청했다.
+
+- 캡처 새로받기 - (화면생성, 배포시 requestID 물고 승인한부분, PC타임아웃설정, 사용자설명서가이드-목차부분도)
+  - I'm making presentation metrials of PLP.
+    Can I get some screenshots?
+    - the screen which is when you are making new screen, you configure new screen
+    - the screen which is that you set up the pc timeout
+    - the screen which is when you release the application, you approve the release rquest. I think I saw the approve history and user request id.
+    - the screen which is for user guide on the web.
+
+- 운영배포할때 1년에 8번 벤더에서 지원을 들어오나?
+  - When you release EPR to live system, Does venders visit here and support to digital team?
+    - ====> 메이저 업그래이드일때만 벤더가 들어옴. 핵심 기능 변경에만. 년 8회 배포에서 화면 수정, 추가로 인한 작업은 디지털팀에서 직접 처리함
+
+- 온콜당직 돌아가면서 하는건가
+  - You said that during the daytime, two people receive the call from the helpdesk or user, and during the night time, one person receives the call. So, Do they work by turn?
+    - 돌아가면서하고.. 이슈가 등록되면 당직자 모바일로 바로 노티가 간다.
+
+- 화면 갯수, EPR이 커버하고 있는 영역
+  - Do you know how many screens are in EPR?
+    -> 수천개이다. 모른다.
+
+- OPR문서는 헬프데스크에서 보는건지? 온콜 당직자가 보는건지?
+  - Are OPR documents for helpdesk? otherwise is it for the people who work by on-calls in your team
+    -> 온콜당직자가 본다.
+
+- 헬프데스크 몇명인가?
+  - Do you know how many people are in helpdesk?
+    -> 모른다. 외부에 있다. 완전 외주다.

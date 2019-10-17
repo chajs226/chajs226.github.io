@@ -15,6 +15,9 @@ Potential Outcomes during this phase:
 - ERP쪽 요구사항은 안받는지?
 
 
+IDMT / ELF
+
+
 EMR 패밀리헬스팀 우리EPR에 접근하는걸 개발하는데 어떤 어그리먼트도 받지 않았다. 뭔가 개발하는데..
   - 리서치 프로젝트도 내 승인을 안받았다. 밖에서 사용하는 프로그램이다.
 
