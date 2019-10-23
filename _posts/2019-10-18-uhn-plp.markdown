@@ -1,0 +1,14 @@
+---
+layout: post
+title: 2019.10.18 [Addtional Meeting, Presentation]
+categories: UHN-PLP
+---
+
+### 09:00 Meeting with Jason
+Jason 에게 Data Science & Implementation 팀의 조직에 대해서 궁금한 부분이 있어서 회의를 요청했고, 짧게 회의를 진행했다.
+
+### 12:00 Meeting with Larurie
+ESB 추가 미팅 진행을 진행했다. ESB가 메시지 허브 역할을 하는데, 주로 HL7 데이터 전송을 메인으로 한다.
+
+### 15:00 Presentation
+PLP를 마무리하면서, 그간에 공부했던 부분을 공유했다. 많이 버벅거림;;

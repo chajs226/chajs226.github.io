@@ -1,0 +1,8 @@
+---
+layout: post
+title: 2019.10.15 [DsI]
+categories: UHN-PLP
+---
+
+### 14:00 / Data Science & Implementations 팀 회의 (wiht Jason)
+Data Science & Implementation 팀에 궁금한 점이 있어서 Jason에게 회의를 요청하고 몇가지 질문 및 자료를 요청했다.
