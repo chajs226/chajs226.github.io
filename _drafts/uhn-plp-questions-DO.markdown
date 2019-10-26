@@ -6,13 +6,34 @@ categories: UHN-PLP
 
 ### 메일 보낼꺼
 [로리]
-- EPR 데이터가 중간에 리파지토리로 전달될때.. DB 단의 트리거 형태로 전달되는지? 아니면 서비스로 만들어서 전달되는지?? DB단일듯.... 패키지니까;; 누가 개발하는데 벤더에서 들어오나? Cache라는 벤더 자체 DB라고 들었거든
+- EPR 데이터가 중간에 리파지토리로 전달될때.. DB 단의 트리거 형태로 전달되는지? 아니면 서비스로 만들어서 전달되는지?? DB단일듯.... 패키지니까;; 누가 개발하는데 벤더에서 들어오나? Cache라는 벤더 자체 DB라고 들었거든ㄴ
+  - When we send HL7 data from EPR to ESB, I think we need to modify EPR system for that. in that case, vendor supported to develop EPR?
+
+- ESB를 거치지 않고 FHIR로 직접 EPR과 연계하는 그림이 있는데,, EPR로 inbound로 들어오는 것은 ESB를 거치지 않는 것인지?
+  - there are some FHIR web serivce that App send data to EPR directly. when it comes to inboud service from App to EPR, do you not use ESB system?
+
+- EPR자체의 데이터 포맷에서 HL7데이터 포맷으로 컨버팅하는 역할은 EPR에서 구현되는건가? ESB에서 하는건가? Tracker라고 하는 곳에서 하는건가??
+  - When we communicate with HL7, I think the data needs te be converted to HL7 datat structure, which system is the data converting? is that ESB, EPR, or Tracker?
+
+- CDR에는 HL7 포맷형태 그대로 DB에 데이터가 저장되는건지?
+  - IS the data stored in CDR as HL7 data structure?
+
+- 레거시에서 EPR로 직접 FHIR을 이용해서 데이터를 가져가는 경우도 있는데, HL7으로 ESB를 통해서 데이터를 주고받을 떄도 실제로는 FHIR을 사용하는게 아닌가?
+  - I understood that FHIR is a framework(or API) for comunicating HL7. So, EPR->ESB->Tracker in this part, you told me it comunicated with HL7, is it also using FHIR?
+
+- CDR (Clinical Data Repository)?
+  - You already told me about CDR. I forgot the stand for CDR. Is it clinicla data repository?
+
+[토니]
+- EPR 도입년도
+  - Can you tell me the year of adapting this EPR at first time?
 
 ### To-Do
 [로리]
 - HL7의 ADT형태로 데이터를 전달하더라도, 요청 시스템별로 조금씩 다른 형태의 데이터를 요청하지 않나? 굉장히 아이디얼한 개념인것 같은데.
 
 - 너희팀의 다른 이들은 어떤일을 담당하나?
+  - 일부는 시스템 모니터링, HL7담당이 있고, 다른 프로토콜을 담당하는 사람이 있다.
 
 [토니질문]
 - 캡처 새로받기 - (화면생성, 배포시 requestID 물고 승인한부분, PC타임아웃설정, 사용자설명서가이드-목차부분도)

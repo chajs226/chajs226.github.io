@@ -4,6 +4,31 @@ title: Quenstions
 categories: UHN-PLP
 ---
 
+#### To, Jason
+
+Hi, Jason
+
+Thank you so much for your response.
+
+I'm a little confused as I read your document sent me. because I thought your team is managing projects about developing some applications, even though it's not related to data science part.
+
+But in the documents you sent me, there is a UHN data science program. I think this is a large data project, including data quality, data governance, data science.
+And I think that all project list in your response is also related to data science part.
+
+So, I have some questions.
+
+1. I know Gary in your team is incharge of opertating the Animal Resource Center System, not data part. So, Is it right that the people who work in the implementation part are managing some projects and the people who work in the data science part involved in this data science program?
+2. Can you explain me about data governance detail?
+3. Is there some tools or applications to manage data quiality?
+4. Do your team develop application to machie-learning, or data mining by in-house?
+
+I'm sorry for many questions.
+
+And thank you for your helping.
+
+Thanks,
+Junseong
+
 
 #### To, Tony
 Hi Tony,

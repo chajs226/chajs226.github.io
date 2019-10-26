@@ -7,7 +7,7 @@ categories: UHN-PLP
 ### 메일 보낼꺼
 - SIMS의 뜻이 뭔지? 프로젝트 고나리 문서 중
   - VII.	SIMS Project Budget / VIII.	SIMS Project Communications Stakeholders  문서기능
-
+  - What does SIMS stand for? And what is the purpose of SIMS Project Budget document and SIMS Project Communications Stakehloders document?
 
 ### To-Do
 
