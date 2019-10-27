@@ -4,6 +4,69 @@ title: Quenstions
 categories: UHN-PLP
 ---
 
+
+#### To, Jason 2019.10.28
+Hi Jason,
+
+How is it going? Time flies. It already passed one week since I left Toronto. I came back to Korea last week. And I also started to work again at our hospital this week.
+
+I should share what I've learned and experienced with my team members. So, I'm preparing to give a presentation. But while I summarized what I learned, I had some questions. Can you reply answer my questions?
+
+It's about project management documents that you gave me.
+
+What does SIMS stand for? And what is the purpose of the SIMS Project Budget document and SIMS Project Communications Stakeholders document?
+
+Cold weather is coming.
+Take care, Jason.
+
+Thank you,
+Junseong.
+
+
+#### To, Tony 2019.10.28
+Hi Tony,
+
+How is it going? Time flies. It already passed two weeks since I left Toronto. I came back to Korea last week. And I also started to work again at our hospital this week.
+
+I should share what I've learned and experienced with my team members. So, I'm preparing to give a presentation. But while I summarized what I learned about EPR, I had a question.
+I'm wondering when this EPR system is introduced to UHN? Can you let me know a specific year?
+
+Cold weather is coming.
+Take care, Tony.
+
+Thank you,
+Junseong.
+
+
+
+
+#### To, Laurie 2019.10.28
+Hi Laurie,
+
+How is it going? Time flies. It already passed two weeks since I left Toronto. I came back to Korea last week. And I also started to work again at our hospital this week.
+
+I should share what I've learned and experienced with my team members. So, I'm preparing to give a presentation. But while I summarized what I learned about ESB, I had some questions more. Can you reply answer my questions?
+
+Here is the diagram of ESB communication.
+
+1. When you send HL7 data from EPR to ESB, I think ESB will be modified to send HL7 data. In that case, the vendor support to modify EPR?
+
+2. When EPR communicate using HL7, I think the data needs to be converted to HL7 data structure, which system is converting the data structure? Is it ESB, EPR, or Tracker?
+
+3. I understood that FHIR is a framework(or API) for communicating HL7. So, in this part, which is through EPR->ESB->Tracker, you told me it communicated using HL7, isn't it also using FHIR?
+
+4. Is there a route from some systems to EPR using ESB, which is some systems->ESB->EPR (inbound)?
+
+5. You already told me about CDR. I forgot that CDR stands for. Is it the clinical data repository?
+
+6. Is the data stored in CDR as the HL7 data structure?
+
+Cold weather is coming.
+Take care, Laurie.
+
+Thank you,
+Junseong.
+
 #### To, Jason
 
 Hi, Jason
