@@ -1,6 +1,6 @@
 ---
 layout: post
-title: toronto island
+title: Toronto island
 categories: [Tronto-Lifelog]
 ---
 

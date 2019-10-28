@@ -77,3 +77,39 @@ tag: 음식, 식당, 맛집
 - 방문일: 2019.09.29
 - 별점: ★★☆
 - [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=hakata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&oquery=ha%E3%85%8Fata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&tqi=Ui5Iesprvxsssv1t6tsssssstyC-402077)
+
+## Red Robster
+![rr1](/images/posts/20191015_172601.jpg)
+
+![rr2](/images/posts/20191015_173554.jpg)
+
+![rr3](/images/posts/20191015_174201.jpg)
+
+식전 빵과 Mango Mai Tai 라는 음료도 맛있었다. 빵은 따뜻하게 데워져서 약간 짭쪼름한 맛이 음료랑 잘 어울렸다.
+메인은 랍스터, 연어, 새우를 그릴에 구운 요리였는데, 랍스터를 별로 좋아하진 않는데 느끼하지 않고, 간이 딱 좋았다. 연어와 새우도 훌륭했다. 토론토에서 먹은 음식 중에는 제일 맛있었다.
+
+- 방문일: 2019.10.15
+- 별점: ★★★★☆
+- [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%86%A0%EB%A1%A0%ED%86%A0+red+robster&oquery=%ED%86%A0%EB%A1%A0%ED%86%A0+%EB%A7%9B%EC%A7%91&tqi=UkOC5lp0Yidss4R%2BUlwssssssMK-193480)
+
+
+## Artisan
+![hsr1](/images/posts/20191016_181444.jpg)
+
+중국식 누들이라는데, 마치 수제비를 길게 늘여 붙인듯한 느낌이다. 면이 아주 넓고 질겨서 먹기가 불편했다. 그래도 토마토 소스와 야채는 신선한 것 같았고, 고기도 먹을만했다.
+
+- 방문일: 2019.10.16
+- 별점: ★★★
+- [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/maps/place/Artisan%2B/@43.6557328,-79.3848078,19z/data=!3m1!4b1!4m24!1m16!4m15!1m6!1m2!1s0x882b34c9d7bae5ab:0xc9f5c9dba5ec9544!2sToronto+General+Hospital,+200+Elizabeth+St,+Toronto,+ON+M5G+2C4,+Canada!2m2!1d-79.3877659!2d43.6591928!1m6!1m2!1s0x89d4cab7615e8755:0x17c993e3cfa0a160!2sToronto+Islands,+Ontario,+Canada!2m2!1d-79.3788412!2d43.621413!3e3!3m6!1s0x882b355a4a3229bd:0x8131a3cdf19a826c!8m2!3d43.6557326!4d-79.3842606!9m1!1b1)
+
+## Salad King
+![hsr1](/images/posts/20191018_164221.jpg)
+
+![hsr2](/images/posts/20191018_163625.jpg)
+
+제법 깔끔하고 세련된 태국음식점이다. 그치만 방콕 길거리에서 먹던 팟타이 맛을 재현해내진 못했다.
+
+- 방문일: 2019.10.18
+- 별점: ★★
+- [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjJB&x_csa=%7B%22category%22%3A%22%EB%A7%9B%EC%A7%91%22%2C%20%22autoPickColor%22%3A%22%23687a80%22%2C%20%22pageNum%22%3A1%7D&pkid=329&os=4106105&query=%ED%86%A0%EB%A1%A0%ED%86%A0%20%EC%83%90%EB%9F%AC%EB%93%9C%20%ED%82%B9)
+
