@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruy
+title: Ryu
 categories: [Tronto-Lifelog]
 ---
 

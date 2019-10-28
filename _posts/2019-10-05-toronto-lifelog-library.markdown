@@ -11,5 +11,7 @@ categories: [Tronto-Lifelog]
 5층에는 LP판과 턴테이블도 가득 보관해놓고 있는데, 다음엔 와서 빌에반스나 몽크 음반이나 찾아서 들어봐야겠다.
 
 ![library2](/images/posts/20191005_132417.jpg)
+
 ![library3](/images/posts/20191005_132431.jpg)
+
 ![library1](/images/posts/20191005_132328.jpg)
