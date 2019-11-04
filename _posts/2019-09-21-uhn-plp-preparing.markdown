@@ -14,7 +14,7 @@ categories: UHN-PLP
 
 #### 2. 병원 컨택
 - 메일 발송 기관
-  1. HIMS
+  1. HIMSS
   2. EPIC(의료 솔루션 업체)
   3. HIT (University of Kansas Health System)
   4. Advent Health
