@@ -6,31 +6,47 @@ tag: 음식, 식당, 맛집
 ---
 
 ## TIM HOLTEN
-가성비 굿
-메이플 파이가 아주 맛있다.
+![tim1](/images/posts/20190924_072219.jpg)
+
+![tim2](/images/posts/20191001_120836.jpg)
+
+가격이 아주 저렴한, 캐나다 국민 까페.
+대부분의 빵도 맛있는데, 메이플 파이가 아주 맛있다. 단점은 노숙자들도 많이 찾는다는 점.
 
 - 방문일: 자주
-- 별점: ★★★★
-- [더 자세한 설명과 리뷰들은 여기를...]
+- 별점: ★★★☆
+- [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%ED%86%A0%EB%A1%A0%ED%86%A0+%ED%8C%80%ED%99%80%ED%8A%BC)
 
 ## TIMOTHY'S
-커피맛 굿, 여기 있는 빵은 다 먹어봤다.
+![ti1](/images/posts/20191015_122707.jpg)
+
+![ti2](/images/posts/20191015_121059.jpg)
+
+사무실 1층에 있는 까페이다. 사무실 사람들은 대부분 도시락을 싸오는데, 나는 거의 매일 여기서 커피와 빵으로 점심을 때웠다. 그래서 여기 빵을 종류별로 다 먹어봤다. 에그타르트가 별 4개.
 
 - 방문일: 자주
 - 별점: ★★★★
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/search?sxsrf=ACYBGNQQEGQPNObuXcPPWrZvAJhDfg-Bgg:1573261714111&q=toronto+timothy%27s&npsic=0&rflfq=1&rlha=0&rllag=43661595,-79382026,1265&tbm=lcl&ved=2ahUKEwjRxO7M-NvlAhW5yosBHXnwBb8QtgN6BAgKEAQ&tbs=lrf:!2m1!1e3!3sIAE,lf:1,lf_ui:4&rldoc=1#rlfi=hd:;si:5242592472544627288;mv:[[43.659863453699316,-79.36859023691277],[43.645921666665814,-79.39665687204462]])
 
 
 ## JINYA
+![jinya](/images/posts/20190921_195104.jpg)
+
+숙소 바로 옆에 있던 일본 라면집. 맛은 그냥 보통의 일본 라면집인데, 손님은 꽤 많다. 가볍게 맥주 한잔하기 좋은 곳.
+
 - 방문일: 2019.09.21
 - 별점: ★★☆
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/search?tbm=lcl&sxsrf=ACYBGNToKB09Gpx21t8OuNNsKxhtpdIKTg%3A1573261773189&ei=zRHGXcaTC4OzmAX_sq7QCw&q=toronto+jinya&oq=toronto+jinya&gs_l=psy-ab.3..0i30k1j0i8i30k1l9.178630.179806.0.180050.5.5.0.0.0.0.166.535.0j4.4.0....0...1c.1.64.psy-ab..1.4.531...0i203k1j0i10i203k1j0i10i30k1j0i5i30k1.0.YTLaB3NOIEA#rlfi=hd:;si:16859245824614511901;mv:[[43.66188527731903,-79.37886261624706],[43.661525322680966,-79.37936018375294]])
 
 ## GOLDEN DINER
-현지인만 가는 듯한 식당. 대실패
+![golden1](/images/posts/20190922_091937.jpg)
+![golden2](/images/posts/20190922_085412.jpg)
+
+동네에 있는 현지인만 가는 듯한 식당이다. 이름은 골든 디너인데, 아침을 많이 먹으러 오는 것 같다. 아메리칸 블랙퍼스트를 시켰는데, 중간에 말을 잘 못 알아듣고, 그냥 달라고 했더니 베이컨을 과자로 만들어왔다.
+
 - 방문일: 2019.09.22
 - 별점: ★☆
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/search?tbm=lcl&sxsrf=ACYBGNRoOVWQsKzk6UFC-Vgzsz8TmajNHA%3A1573261954973&ei=ghLGXfL-Ot6Qr7wP0pCm-AE&q=toronto+golden+diner&oq=toronto+golden+diner&gs_l=psy-ab.3..0i8i30k1l5.329861.332456.0.332953.12.10.0.1.1.0.220.1161.0j5j2.7.0....0...1c.1.64.psy-ab..4.8.1165...0j0i203k1j0i10i203k1.0.i4MxefQzGAM#rlfi=hd:;si:5791652746227743942;mv:[[43.662349477319026,-79.37714501432347],[43.66198952268097,-79.37764258567651]])
 
 
 ## 어셈블리 [Assembli]
@@ -44,6 +60,9 @@ tag: 음식, 식당, 맛집
 - [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/maps/place/Assembli/@43.6610231,-79.3788517,19.66z/data=!4m5!3m4!1s0x89d4cbb722d62055:0xfdd0656e1be86708!8m2!3d43.6610912!4d-79.3788875?hl=ko)
 
 ## 비빔밥
+![bapbo](/images/posts/20190923_175656.jpg)
+
+
 - 방문일: 2019.09.24
 - 별점: ★★★☆
 - [더 자세한 설명과 리뷰들은 여기를...]
@@ -112,13 +131,20 @@ tag: 음식, 식당, 맛집
 - [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=hakata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&oquery=ha%E3%85%8Fata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&tqi=Ui5Iesprvxsssv1t6tsssssstyC-402077)
 
 ## LOBLAW
+![loblaw](/images/posts/20191001_180134.jpg)
+
+![loblaw](/images/posts/20191008_184000.jpg)
+
+
 마트에서 조리 음식을 박스에 담아서 바로 먹을 수 있는데, 보기는 이래도 음식하나하나는 맛있다. 그런데 이렇게 한박스에 담다 보면 가격이 대략 17,000 ~ 18,000까지 한다.
 
 - 방문일: 자주
 - 별점: ★★★
 - [더 자세한 설명과 리뷰들은 여기를...]
 
-## LOBLAW
+## 일본고기집
+![loblaw](/images/posts/20191003_161408.jpg)
+
 고기를 구워먹는 집에 처음으로 혼자 가봤다. 일본 식당인데, 다양한 종류의 소고기를 먹을 수 있다. 2시간 시간 제한이 있으며, 소고기를 양껏 먹을 수 있는 것 치곤 가격은 생각보다 비싸진 않다. 식당에 혼자 온 사람은 나뿐이어서 왠지 마음이 불편해서 빛의 속도로 먹고 나왔다. 고기 종류가 낙 다양한데, 일단 전체 메뉴를 하나씩 다 시켜서 맛을 보고, 맛있는 것을 추가로 시킬려고 했는데, 맛을 보다가 이미 배가 불러서, 많이 못먹었다. 여럿이서 가길 추천;;
 
 - 방문일: 2019.10.04
@@ -126,12 +152,14 @@ tag: 음식, 식당, 맛집
 - [더 자세한 설명과 리뷰들은 여기를...]
 
 ## DON
+![Gyugyuya](/images/posts/20191007_174440.jpg)
 
 - 방문일: 2019.10.08
 - 별점: ★★☆
 - [더 자세한 설명과 리뷰들은 여기를...]
 
 ## Gyugyuya
+![Gyugyuya](/images/posts/20191009_174649.jpg)
 규동, 맛남
 
 - 방문일: 2019.10.10
