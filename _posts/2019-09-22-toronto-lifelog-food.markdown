@@ -39,7 +39,7 @@ tag: 음식, 식당, 맛집
 - [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/search?tbm=lcl&sxsrf=ACYBGNToKB09Gpx21t8OuNNsKxhtpdIKTg%3A1573261773189&ei=zRHGXcaTC4OzmAX_sq7QCw&q=toronto+jinya&oq=toronto+jinya&gs_l=psy-ab.3..0i30k1j0i8i30k1l9.178630.179806.0.180050.5.5.0.0.0.0.166.535.0j4.4.0....0...1c.1.64.psy-ab..1.4.531...0i203k1j0i10i203k1j0i10i30k1j0i5i30k1.0.YTLaB3NOIEA#rlfi=hd:;si:16859245824614511901;mv:[[43.66188527731903,-79.37886261624706],[43.661525322680966,-79.37936018375294]])
 
 ## GOLDEN DINER
-![golden1](/images/posts/20190922_091937.jpg)
+![golden1](/images/posts/20190922_091037.jpg)
 ![golden2](/images/posts/20190922_085412.jpg)
 
 동네에 있는 현지인만 가는 듯한 식당이다. 이름은 골든 디너인데, 아침을 많이 먹으러 오는 것 같다. 아메리칸 블랙퍼스트를 시켰는데, 중간에 말을 잘 못 알아듣고, 그냥 달라고 했더니 베이컨을 과자로 만들어왔다.
@@ -58,14 +58,6 @@ tag: 음식, 식당, 맛집
 - 방문일: 2019.09.22
 - 별점: ☆
 - [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/maps/place/Assembli/@43.6610231,-79.3788517,19.66z/data=!4m5!3m4!1s0x89d4cbb722d62055:0xfdd0656e1be86708!8m2!3d43.6610912!4d-79.3788875?hl=ko)
-
-## 비빔밥
-![bapbo](/images/posts/20190923_175656.jpg)
-
-
-- 방문일: 2019.09.24
-- 별점: ★★★☆
-- [더 자세한 설명과 리뷰들은 여기를...]
 
 ## 밥보
 ![bapbo](/images/posts/20190926_183637.jpg)
@@ -130,33 +122,26 @@ tag: 음식, 식당, 맛집
 - 별점: ★★☆
 - [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=hakata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&oquery=ha%E3%85%8Fata+shoryuken+ramen+%ED%86%A0%EB%A1%A0%ED%86%A0&tqi=Ui5Iesprvxsssv1t6tsssssstyC-402077)
 
-## LOBLAW
+## LOBLAWS
 ![loblaw](/images/posts/20191001_180134.jpg)
 
 ![loblaw](/images/posts/20191008_184000.jpg)
 
 
-마트에서 조리 음식을 박스에 담아서 바로 먹을 수 있는데, 보기는 이래도 음식하나하나는 맛있다. 그런데 이렇게 한박스에 담다 보면 가격이 대략 17,000 ~ 18,000까지 한다.
+마트에서 조리 음식을 박스에 담아서 바로 먹을 수 있는데, 보기는 이래도 음식하나하나는 맛있다. 그런데 이렇게 한박스에 담다 보면 가격이 대략 17,000 ~ 18,000원까지 한다.
 
 - 방문일: 자주
 - 별점: ★★★
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://www.google.com/search?q=toronto%20loblaws&rlz=1C1CHZL_koKR745KR745&oq=toronto+loblaws&aqs=chrome..69i57j0l5.4183j0j8&sourceid=chrome&ie=UTF-8&sxsrf=ACYBGNQX4c6OxgHMBulV9eA6AG86h03tTQ:1573420330154&npsic=0&rflfq=1&rlha=0&rllag=43653254,-79385714,1615&tbm=lcl&rldimm=175454462523384567&lqi=Cg90b3JvbnRvIGxvYmxhd3MiA4gBAVoJCgdsb2JsYXdz&ved=2ahUKEwjOwvG-x-DlAhXQZt4KHQ4cCV8QvS4wAHoECAsQFg&rldoc=1&tbs=lrf:!2m1!1e3!3sIAE,lf:1,lf_ui:4&rlst=f#rlfi=hd:;si:175454462523384567,l,Cg90b3JvbnRvIGxvYmxhd3MiA4gBAVoJCgdsb2JsYXdz;mv:[[43.776243,-79.2722141],[43.6363856,-79.5764801]];tbs:lrf:!2m1!1e3!3sIAE,lf:1,lf_ui:4)
 
-## 일본고기집
-![loblaw](/images/posts/20191003_161408.jpg)
+## 규비(Gyubee)
+![gyubee](/images/posts/20191003_161408.jpg)
 
 고기를 구워먹는 집에 처음으로 혼자 가봤다. 일본 식당인데, 다양한 종류의 소고기를 먹을 수 있다. 2시간 시간 제한이 있으며, 소고기를 양껏 먹을 수 있는 것 치곤 가격은 생각보다 비싸진 않다. 식당에 혼자 온 사람은 나뿐이어서 왠지 마음이 불편해서 빛의 속도로 먹고 나왔다. 고기 종류가 낙 다양한데, 일단 전체 메뉴를 하나씩 다 시켜서 맛을 보고, 맛있는 것을 추가로 시킬려고 했는데, 맛을 보다가 이미 배가 불러서, 많이 못먹었다. 여럿이서 가길 추천;;
 
 - 방문일: 2019.10.04
 - 별점: ★★★
-- [더 자세한 설명과 리뷰들은 여기를...]
-
-## DON
-![Gyugyuya](/images/posts/20191007_174440.jpg)
-
-- 방문일: 2019.10.08
-- 별점: ★★☆
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%86%A0%EB%A1%A0%ED%86%A0+%EA%B7%9C%EB%B9%84&oquery=%ED%86%A0%EB%A1%A0%ED%86%A0+%EC%9D%BC%EB%B3%B8+%EC%86%8C%EA%B3%A0%EA%B8%B0&tqi=UNm%2BvwprvxZssRJYdZ0ssssst8d-094082)
 
 ## Gyugyuya
 ![Gyugyuya](/images/posts/20191009_174649.jpg)
@@ -164,7 +149,7 @@ tag: 음식, 식당, 맛집
 
 - 방문일: 2019.10.10
 - 별점: ★★★
-- [더 자세한 설명과 리뷰들은 여기를...]
+- [더 자세한 설명과 리뷰들은 여기를...](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%ED%86%A0%EB%A1%A0%ED%86%A0+Gyugyuya&oquery=%ED%86%A0%EB%A1%A0%ED%86%A0+DON&tqi=UNm%2BOsprvN8ssbR0%2FtGssssssK0-312902)
 
 
 ## Red Robster
@@ -193,8 +178,6 @@ tag: 음식, 식당, 맛집
 
 ## Salad King
 ![hsr1](/images/posts/20191018_164221.jpg)
-
-![hsr2](/images/posts/20191018_163625.jpg)
 
 제법 깔끔하고 세련된 태국음식점이다. 그치만 방콕 길거리에서 먹던 팟타이 맛을 재현해내진 못했다.
 
