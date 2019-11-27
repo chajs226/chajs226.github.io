@@ -18,7 +18,7 @@ tags: [toy project, django, python]
 6. 서비스 개발
   - My Sentence 페이지 개발
     - 문장 등록하기
-    - 등록된 리스트 조회 [완료]
+    - 등록된 리스트 조회 <span style="color:blue">[완료]</span>
   - Quiz 페이지 개발
     - 퀴즈 등록, 풀기
 </details>
