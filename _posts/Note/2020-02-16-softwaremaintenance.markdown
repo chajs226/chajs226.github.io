@@ -7,26 +7,26 @@ tags: [java, 소프트웨어 유지보수]
 
 <div class="ttbReview"><table><tbody><tr><td><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98546964&amp;ttbkey=ttbchajs2261707002&amp;COPYPaper=1" target="_blank"><img src="https://image.aladin.co.kr/product/9854/69/coversum/k292535351_1.jpg" alt="" border="0"/></a></td><td align="left"  style="vertical-align:top;"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98546964&amp;ttbkey=ttbchajs2261707002&amp;COPYPaper=1" target="_blank" class="aladdin_title">유지보수 가능한 코딩의 기술 자바편</a> - <img src="//image.aladin.co.kr/img/common/star_s6.gif" border="0" alt="6점" /><br/>주스트뷔서 외 지음, 이일웅 옮김/길벗</td></tr></tbody></table></div>
 
-유지보수는 비지니스에 지대한 영향을 미친다.\
+유지보수는 비지니스에 지대한 영향을 미친다.
 -> 유지보수성을 높임으로 인해, 이슈 해결에 드는 비용과 기간을 줄이고, 여력을 새로운 생산적인 일, 부서 주도의 프로젝트를 진행하는데 쓸 수 있을 것이다.
 
-가이드라인 지키기\
+가이드라인 지키기
 -> 단순하지만 현실적인 가이드 라인을 수립하고, 이를 체크할 때는 단순히 위반 갯수보다는 위험한 위반, 양호한 위반 등으로 카테고리화해서 관리하는 것이 좋다.
 
-중복코드 감지\
+중복코드 감지
 -> 소스코드 분석툴 PMD에 포함된 CPD가 잘 알려진 클론 감지 툴로, 메이븐 또는 이클립스에서도 실행할 수 있다.
 
 서드파트 라이브러리의 코드엔 절대 손대지 말 것. 고치는 순간 코드베이스의 일부가 되고, 라이브러리 버전 업이 불가능해진다.
 
-IT 서비스 부서의 생산성 및 비용 측정\
+IT 서비스 부서의 생산성 및 비용 측정
 -> 코드 베이스의 크기, 라인 수로 측정하는 것은 의미가 없다. 개발 업무의 생산성은 부가가치의 크기가 감안되어야 한다.
 
 테스트를 비테스트(제품) 코드처럼 관리해야 한다.
 
 리펙토링을 위한 별도의 시간을 할애하는 것보다, 정규 업무(SR처리, 개발)의 프로세스에 녹여야 한다.
-\
-\
-\
+
+
+
 [책에 정리된 유지보수성 10대 가이드 라인]
 1. 코드 단위를 짧게 하라
   - 단위(메서드, 생성자)는 짧을수록 분석, 테스트, 재사용하기가 좋습니다.
