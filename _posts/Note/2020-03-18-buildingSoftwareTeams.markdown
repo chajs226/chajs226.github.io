@@ -5,9 +5,6 @@ categories: Note
 tags:
 ---
 
-<div class="ttbReview"><table><tbody><tr><td><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98546964&amp;ttbkey=ttbchajs2261707002&amp;COPYPaper=1" target="_blank"><img src="https://image.aladin.co.kr/product/9854/69/coversum/k292535351_1.jpg" alt="" border="0"/></a></td><td align="left"  style="vertical-align:top;"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98546964&amp;ttbkey=ttbchajs2261707002&amp;COPYPaper=1" target="_blank" class="aladdin_title">유지보수 가능한 코딩의 기술 자바편</a> - <img src="//image.aladin.co.kr/img/common/star_s6.gif" border="0" alt="6점" /><br/>주스트뷔서 외 지음, 이일웅 옮김/길벗</td></tr></tbody></table></div>
-
-
 목차를 보면서 지속적 통합, 배포, 코드 버전 컨트롤 등 그닥 흥미없는 내용은 skip 하고, 품질 측정 매트릭 작성, 테스트 자동화와 관련된 부분만 발췌해서 읽었다.
 
 책이나 인터넷에 자료를 검색하거나, 타 사이트에 벤치마킹을 가서도 테스트 자동화를 효과적으로 운영하고 있는 것을 찾을 수 없었다. 다양한 시나리오를 담을 케이스를 작성하고(중요한 시나리오만 할지라도 노력이 많이 필요), 테스트 데이터 또한 만들어야 하고, 프로그램의 수정에 따른 자동화 테스트 프로그램(시나리오) 또한 유지보수 노력이 계속들어가게 된다. 그만큼 노력에 비한 효과를 얻기가 힘들다는 반증일 수 있다.
