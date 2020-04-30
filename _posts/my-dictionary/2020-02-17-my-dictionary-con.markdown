@@ -47,4 +47,8 @@ tps://blog.voidmainvoid.net/157)
 - Alarm Manager를 사용하는 방법은 여러 블로그와 안드로이드 개발 문서를 참고했다. [참고1](https://developer.android.com/training/scheduling/alarms) [참고2](https://m.blog.naver.com/PostView.nhn?blogId=jogilsang&logNo=221513058119&proxyReferer=https:%2F%2Fwww.google.com%2F) [참고3](https://lcw126.tistory.com/287)
 
 
+[2020.04.30]
+- v.2020.04.30
+- 기 등록된 문장 수정 기능, Success, Fail, Skip 카운트 업데이트 기능 추가
+
 GITHUB: https://github.com/chajs226/DailySentences
