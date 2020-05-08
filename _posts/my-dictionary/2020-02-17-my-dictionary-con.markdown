@@ -51,4 +51,16 @@ tps://blog.voidmainvoid.net/157)
 - v.2020.04.30
 - 기 등록된 문장 수정 기능, Success, Fail, Skip 카운트 업데이트 기능 추가
 
+
+[2020.05.02]
+- v.2020.05.02
+- 디자인 변경: 런처 아이콘 변경 [[참고]]( https://developer.android.com/studio/write/image-asset-studio?hl=ko), ActionBar 및 전체 색상 변경 [[참고]](https://youngest-programming.tistory.com/2)
+
+
+[2020.05.08]
+- v.2020.05.08
+- 삭제 기능 추가
+- count 정보 디자인(색상) 변경
+
+
 GITHUB: https://github.com/chajs226/DailySentences
