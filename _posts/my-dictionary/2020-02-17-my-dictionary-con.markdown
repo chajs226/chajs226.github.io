@@ -63,4 +63,9 @@ tps://blog.voidmainvoid.net/157)
 - count 정보 디자인(색상) 변경
 
 
+[2020.05.14]
+- v.2020.05.14
+- 알람 등록 상태 표시
+- 문장 표시 스크롤바 추가
+
 GITHUB: https://github.com/chajs226/DailySentences
