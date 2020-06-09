@@ -68,4 +68,10 @@ tps://blog.voidmainvoid.net/157)
 - 알람 등록 상태 표시
 - 문장 표시 스크롤바 추가
 
+[2020.06.10]
+- v.2020.06.10
+- 노티 클릭해서 문제를 1분 30초 내에 안풀면 자동 스킵 처리
+- 문제 별 누적점수 정보 추가: S:+5, F:-1, K:-2
+- 리스트에서 누적점수 기준 정렬
+
 GITHUB: https://github.com/chajs226/DailySentences
