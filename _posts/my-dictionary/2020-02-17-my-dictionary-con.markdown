@@ -74,4 +74,8 @@ tps://blog.voidmainvoid.net/157)
 - 문제 별 누적점수 정보 추가: S:+5, F:-1, K:-2
 - 리스트에서 누적점수 기준 정렬
 
+[2020.06.17]
+- v.2020.06.17.6
+- 알람 노티 오류 수정
+
 GITHUB: https://github.com/chajs226/DailySentences
