@@ -78,4 +78,9 @@ tps://blog.voidmainvoid.net/157)
 - v.2020.06.17.6
 - 알람 노티 오류 수정
 
+[2020.07.03]
+- v.2020.07.03.1
+- 리스트뷰를 카드뷰로 변경
+- AlarmStat 항상 표시
+
 GITHUB: https://github.com/chajs226/DailySentences
