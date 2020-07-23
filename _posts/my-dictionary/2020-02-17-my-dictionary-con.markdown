@@ -83,4 +83,8 @@ tps://blog.voidmainvoid.net/157)
 - 리스트뷰를 카드뷰로 변경
 - AlarmStat 항상 표시
 
+[2020.07.23]
+- v.2020.07.23.1
+- 자동(랜덤) 알람 설정 기능 추가
+
 GITHUB: https://github.com/chajs226/DailySentences
