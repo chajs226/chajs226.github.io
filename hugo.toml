@@ -20,22 +20,22 @@ theme = 'maverick'
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/hugo_blog/posts/"
+    url = "/posts/"
     weight = 1
   [[menu.main]]
     identifier = "playgound"
     name = "Playground"
-    url = "/hugo_blog/playground/"
+    url = "/playground/"
     weight = 2
   [[menu.main]]
     identifier = "notes"
     name = "Notes"
-    url = "/hugo_blog/notes/"
+    url = "/notes/"
     weight = 3
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/hugo_blog/about/"
+    url = "/about/"
     weight = 4
 
 [markup]
