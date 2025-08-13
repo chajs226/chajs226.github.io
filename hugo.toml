@@ -20,22 +20,22 @@ theme = 'maverick'
   [[menu.main]]
     identifier = "playgound"
     name = "Playground"
-    url = "/playground/"
+    url = "playground/"
     weight = 2
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
     weight = 1
   [[menu.main]]
     identifier = "notes"
     name = "Notes"
-    url = "/notes/"
+    url = "notes/"
     weight = 3
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 4
 
 [markup]
