@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://chajs226.github.io/hugo_blog/'
 languageCode = 'ko-kr'
 title = "Junseong's Story"
 theme = 'maverick'
