@@ -2,18 +2,12 @@
 title: About
 ---
 
-**Maverick** is a minimalistic Hugo blogging theme. The theme is inspired from [Poole](https://getpoole.com) and [Listed](https://github.com/ronv/listed)
+**Junseong** 은 소비보다는 생산에 관심이 많은, 수줍지만 꾸준한 사람입니다.
 
-### Features
-
-- Minimalistic, clean and simple design
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Tags
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Ultra fast
-- Github comment
+### Feature
+- 진지한 얼굴로 뜬금 없는 농담을 잘하는 편 😑
+- 내향성 만점자, MBTI 검사에서 I는 만점, E는 0점 달성 🏆
+- 남들보다 느리지만, 포기도 느린 편 🐢
+- 잘하고 싶은 것들은 특별히 잘 하지 못하는 편
+    - 10년 째 초급 수준의 피아노 🎹
+    - 영어 강의로 날린 돈이.. 😭
