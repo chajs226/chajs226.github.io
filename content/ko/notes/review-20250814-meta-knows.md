@@ -2,7 +2,6 @@
 author: "Junseong Cha"
 title: "니가 뭘- 해봤다고 창업이니?"
 date: "2025-08-13"
-lang: "ko"
 tags: 
 - book review
 - mindset

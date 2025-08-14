@@ -1,0 +1,21 @@
+## 안녕하세요! 👋
+
+<img class="avatar" src="/images/myface.jpeg" alt="avatar">
+
+
+이 공간에서는 \
+매일의 작은 발견을 **기록**하고, 문득 떠오르는 아이디어를 붙잡아서 작게 **실험**해보는 이야기들로 채우려고 합니다.
+
+기록을 쌓으면서 내가 누구인지, 어떤 일을 할 때 행복을 느끼는지 더 잘 알게 되길 바랍니다. 그 여정 속에서 주위 사람들에게 **좋은 영향**을 끼칠 수 있다면 더 바랄 게 없을 것 같습니다.
+
+
+
+ <!-- - 📺 Demo: https://maverick.canhtran.me
+ - ❤️ Github: https://github.com/canhtran/maverick
+-->
+
+감사합니다.
+
+<!--
+[<img src="https://images.squarespace-cdn.com/content/v1/5cf6ec742e677c000119beb3/1559871045027-2XSVXYWSZD9POBO0QOVD/buy-me-a-coffee-button.png" width="100"/>](https://www.buymeacoffee.com/canh)
+-->

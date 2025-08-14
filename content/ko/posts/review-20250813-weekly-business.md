@@ -2,7 +2,6 @@
 author: "Junseong Cha"
 title: "나는 주말마다 10억 버는 비즈니스를 한다"
 date: "2025-08-13"
-lang: "ko"
 tags: 
 - book review
 - mindset

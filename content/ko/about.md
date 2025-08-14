@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: 2025-08-13T00:00:00+09:00
-lang: "ko"
 draft: false
 ---
 
