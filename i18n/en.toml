@@ -1,0 +1,123 @@
+# Menu translations
+[menu_home]
+other = "Home"
+
+[menu_posts]
+other = "Posts"
+
+[menu_notes]
+other = "Notes"
+
+[menu_about]
+other = "About"
+
+# Page titles
+[latest_posts]
+other = "Latest Posts"
+
+[all_posts]
+other = "All Posts"
+
+[all_notes]
+other = "All Notes"
+
+[read_more]
+other = "Read more"
+
+[continue_reading]
+other = "Continue reading"
+
+# Date and time
+[posted_on]
+other = "Posted on"
+
+[updated_on]
+other = "Updated on"
+
+[reading_time]
+other = "{{ .Count }} min read"
+
+# Tags and categories
+[tags]
+other = "Tags"
+
+[categories]
+other = "Categories"
+
+[in_category]
+other = "in {{ .Category }}"
+
+# Navigation
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[page_not_found]
+other = "Page Not Found"
+
+[back_to_home]
+other = "Back to Home"
+
+# Search
+[search]
+other = "Search"
+
+[search_placeholder]
+other = "Enter search terms..."
+
+# Language switcher
+[language_switcher]
+other = "Language"
+
+[switch_to_english]
+other = "English"
+
+[switch_to_korean]
+other = "한국어"
+
+# Footer
+[powered_by]
+other = "Powered by"
+
+[theme_by]
+other = "Theme by"
+
+# RSS and feeds
+[subscribe]
+other = "Subscribe"
+
+[rss_feed]
+other = "RSS Feed"
+
+# Comments
+[comments]
+other = "Comments"
+
+[leave_comment]
+other = "Leave a comment"
+
+# Social media
+[share]
+other = "Share"
+
+[share_on_twitter]
+other = "Share on Twitter"
+
+[share_on_facebook]
+other = "Share on Facebook"
+
+# Error messages
+[error_404]
+other = "404 - Page Not Found"
+
+[error_404_message]
+other = "The page you are looking for does not exist."
+
+# Miscellaneous
+[draft]
+other = "Draft"
+
+[minutes_read]
+other = "min read"

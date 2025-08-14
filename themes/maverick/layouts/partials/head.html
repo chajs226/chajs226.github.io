@@ -9,6 +9,15 @@
     {{ template "_internal/schema.html" . }}
     {{ template "_internal/google_analytics.html" . }}
     <link rel="canonical" href="{{ .Permalink }}">
+    
+    <!-- Hreflang tags for SEO -->
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+      {{ end }}
+    {{ end }}
+    <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}" />
+    
     <link rel="icon" href="{{ .Site.BaseURL }}/assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>

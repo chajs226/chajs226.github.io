@@ -1,0 +1,123 @@
+# 메뉴 번역
+[menu_home]
+other = "홈"
+
+[menu_posts]
+other = "포스트"
+
+[menu_notes]
+other = "노트"
+
+[menu_about]
+other = "소개"
+
+# 페이지 제목
+[latest_posts]
+other = "최근 포스트"
+
+[all_posts]
+other = "모든 포스트"
+
+[all_notes]
+other = "모든 노트"
+
+[read_more]
+other = "더 읽기"
+
+[continue_reading]
+other = "계속 읽기"
+
+# 날짜 및 시간
+[posted_on]
+other = "게시일"
+
+[updated_on]
+other = "수정일"
+
+[reading_time]
+other = "{{ .Count }}분 읽기"
+
+# 태그 및 카테고리
+[tags]
+other = "태그"
+
+[categories]
+other = "카테고리"
+
+[in_category]
+other = "{{ .Category }} 카테고리"
+
+# 네비게이션
+[previous]
+other = "이전"
+
+[next]
+other = "다음"
+
+[page_not_found]
+other = "페이지를 찾을 수 없습니다"
+
+[back_to_home]
+other = "홈으로 돌아가기"
+
+# 검색
+[search]
+other = "검색"
+
+[search_placeholder]
+other = "검색어를 입력하세요..."
+
+# 언어 스위처
+[language_switcher]
+other = "언어 선택"
+
+[switch_to_english]
+other = "English"
+
+[switch_to_korean]
+other = "한국어"
+
+# 푸터
+[powered_by]
+other = "Powered by"
+
+[theme_by]
+other = "테마:"
+
+# RSS 및 피드
+[subscribe]
+other = "구독"
+
+[rss_feed]
+other = "RSS 피드"
+
+# 댓글
+[comments]
+other = "댓글"
+
+[leave_comment]
+other = "댓글 남기기"
+
+# 소셜 미디어
+[share]
+other = "공유"
+
+[share_on_twitter]
+other = "트위터에 공유"
+
+[share_on_facebook]
+other = "페이스북에 공유"
+
+# 오류 메시지
+[error_404]
+other = "404 - 페이지를 찾을 수 없습니다"
+
+[error_404_message]
+other = "찾고 있는 페이지가 존재하지 않습니다."
+
+# 기타
+[draft]
+other = "초안"
+
+[minutes_read]
+other = "분 읽기"

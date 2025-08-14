@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
   {{ partial "head.html" . }}
 <body>
   <a class="skip-link" href="#main">Skip to main</a>
@@ -8,7 +8,7 @@
       {{ partial "header.html" . }}
       {{ .Content }}
       {{ if gt (len ( where .Site.RegularPages "Section" "in" (slice "posts" "notes") )) 0 }}
-      <h1>Latest Posts</h1>
+      <h1>{{ i18n "latest_posts" }}</h1>
       <section>
         {{ range (first .Site.Params.items (where .Site.RegularPages "Section" "in" (slice "posts" "notes") ).ByDate.Reverse) }}
           <p>
