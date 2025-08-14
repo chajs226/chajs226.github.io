@@ -8,10 +8,12 @@ theme = 'maverick'
 
 [params]
   logo = '/assets/favicon.ico'
-  description = "Junseong's Story"
+  description = "Junseong's Playgound"
   author = '차준성'
   items = 10
-
+  # 모든 섹션의 콘텐츠를 메인에서 표시
+  mainSections = ["posts", "notes"]
+  
   [params.comments]
     enabled = false
 
@@ -23,11 +25,6 @@ theme = 'maverick'
     url = "/posts/"
     weight = 1
   [[menu.main]]
-    identifier = "playgound"
-    name = "Playground"
-    url = "/playground/"
-    weight = 2
-  [[menu.main]]
     identifier = "notes"
     name = "Notes"
     url = "/notes/"
@@ -35,7 +32,7 @@ theme = 'maverick'
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 4
 
 [markup]

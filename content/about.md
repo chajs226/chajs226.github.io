@@ -1,5 +1,7 @@
 ---
-title: About
+title: "About Me"
+date: 2025-08-13T00:00:00+09:00
+draft: false
 ---
 
 **Junseong** 은 소비보다는 생산에 관심이 많은, 수줍지만 꾸준한 사람입니다.
