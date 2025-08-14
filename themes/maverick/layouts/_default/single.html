@@ -1,34 +1,26 @@
-<!doctype html>
-<html lang="en">
-  {{ partial "head.html" . }}
-<body>
-  <a class="skip-link" href="#main">Skip to main</a>
-  <main id="main">
-  <div class="content">
-    {{ partial "header.html" . }}
-    <section>
-      <h2 class="post">{{ .Title }}</h2>
-      {{ .Content }}
-      {{ if ne .Section "pages" }}
-      <div class="post-date">
-        <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
-        {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
-        {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-        $taxonomy $tag) -}}
-        <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
-        {{- end -}} {{- end -}}
-        {{ end }}
-      </div>
-      {{ end }}
-    </section>
-    {{ if eq .Section "posts" }}
-    {{ if eq .Site.Params.comments.enabled true }}
-    <div id="comments">
-      {{ partial "comments.html" $ }}
-    </div>
-    {{ end }}
+{{ define "main" }}
+{{ partial "breadcrumb.html" . }}
+<section>
+  <h2 class="post">{{ .Title }}</h2>
+  {{ .Content }}
+  {{ if ne .Section "pages" }}
+  <div class="post-date">
+    <span class="g time">{{.Date.Format "January 2, 2006"}} </span> &#8729;
+    {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+    {{ i18n "tags" }}: 
+    {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+    $taxonomy $tag) -}}
+    <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+    {{- end -}} {{- end -}}
     {{ end }}
   </div>
-</main>
-</body>
-</html>
+  {{ end }}
+</section>
+{{ if eq .Section "posts" }}
+{{ if eq .Site.Params.comments.enabled true }}
+<div id="comments">
+  {{ partial "comments.html" $ }}
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

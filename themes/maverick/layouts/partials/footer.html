@@ -1,4 +1,87 @@
 
-<footer>
-<p>© {{ dateFormat "2022" now }}</p>
+<footer class="footer">
+  <hr class="hr-list">
+  <p class="footer-text">
+    {{ i18n "powered_by" }} <a href="https://gohugo.io" target="_blank">Hugo</a> · 
+    {{ i18n "theme_by" }} <a href="https://github.com/canhtran/maverick" target="_blank">Maverick</a>
+  </p>
+  <p class="footer-text">© {{ dateFormat "2006" now }} {{ .Site.Params.author }}</p>
+  
+  <!-- 소셜 미디어 링크 -->
+  {{ if .Site.Params.social }}
+  <div class="social-links">
+    {{ range $name, $url := .Site.Params.social }}
+      <a href="{{ $url }}" target="_blank" rel="noopener" title="{{ $name | title }}">
+        {{ if eq $name "github" }}GitHub{{ else if eq $name "email" }}Email{{ else }}{{ $name | title }}{{ end }}
+      </a>
+    {{ end }}
+  </div>
+  {{ end }}
+  
+  <!-- 언어 전환 링크 -->
+  {{ if gt (len .Site.Languages) 1 }}
+  <div class="language-footer">
+    <span>{{ i18n "language_switcher" }}: </span>
+    {{ range .Site.Languages }}
+      {{ if eq .Lang $.Site.Language.Lang }}
+        <span class="current-lang">{{ .LanguageName }}</span>
+      {{ else }}
+        <a href="{{ if eq .Lang "ko" }}/{{ else }}/{{ .Lang }}/{{ end }}" class="lang-link">{{ .LanguageName }}</a>
+      {{ end }}
+      {{ if ne .Lang (index (last 1 $.Site.Languages) 0).Lang }} | {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
 </footer>
+
+<style>
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.language-footer {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0.5rem 0;
+}
+
+.current-lang {
+  font-weight: bold;
+  color: #333;
+}
+
+.lang-link {
+  color: #666;
+  text-decoration: none;
+}
+
+.lang-link:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.social-links {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 0.9em;
+}
+
+.social-links a:hover {
+  color: #007acc;
+  text-decoration: underline;
+}
+</style>

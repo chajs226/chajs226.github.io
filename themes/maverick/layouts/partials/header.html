@@ -1,7 +1,7 @@
 {{ $menuLength := len .Site.Menus.main }}
 <header>
   <p style="padding: 0;margin: 0;">
-    <a href="{{ .Site.BaseURL }}">
+    <a href="{{ if eq .Site.Language.Lang "ko" }}{{ .Site.BaseURL }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Language.Lang }}/{{ end }}">
       <b>{{ .Site.Title }}</b>
       <span class="text-stone-500 animate-blink">▮</span>
     </a>
@@ -12,9 +12,9 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-      <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-      {{ end }}
+      <a href="{{ if .URL }}{{ .URL }}{{ else }}{{ .PageRef | relLangURL }}{{ end }}"><span>{{ .Name }}</span></a>
     </li>
+    {{ end }}
   </ul>
   {{ else }}
   <button class="burger" aria-label="Toggle menu">
@@ -25,13 +25,94 @@
   <nav class="nav-menu">
     <ul style="padding: 0;margin: 0;">
       {{ $currentPage := . }}
-      {{ range $index, $element := .Site.Menus.main }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-          <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-        </li>
+      {{ if eq .Site.Language.Lang "en" }}
+        <li><a href="{{ "posts" | relLangURL }}"><span>Posts</span></a></li>
+        <li><a href="{{ "notes" | relLangURL }}"><span>Notes</span></a></li>
+        <li><a href="{{ "about" | relLangURL }}"><span>About</span></a></li>
+      {{ else }}
+        <li><a href="{{ "posts" | relLangURL }}"><span>포스트</span></a></li>
+        <li><a href="{{ "notes" | relLangURL }}"><span>노트</span></a></li>
+        <li><a href="{{ "about" | relLangURL }}"><span>소개</span></a></li>
       {{ end }}
     </ul>
+    
+    <!-- Language Switcher -->
+    {{ if gt (len .Site.Languages) 1 }}
+    <div class="language-switcher">
+      {{ range .Site.Languages }}
+        {{ if ne $.Site.Language.Lang .Lang }}
+          <a href="{{ if eq .Lang "ko" }}/{{ else }}/{{ .Lang }}/{{ end }}" 
+             class="language-toggle"
+             title="Switch to {{ .LanguageName }}">
+            {{ if eq .Lang "ko" }}🇰🇷{{ else if eq .Lang "en" }}🇺🇸{{ else }}{{ .LanguageName }}{{ end }}
+          </a>
+        {{ end }}
+      {{ end }}
+      
+      <!-- Current language indicator -->
+      <span class="current-language" title="{{ .Site.Language.LanguageName }}">
+        {{ if eq .Site.Language.Lang "ko" }}🇰🇷{{ else if eq .Site.Language.Lang "en" }}🇺🇸{{ else }}{{ .Site.Language.LanguageName }}{{ end }}
+      </span>
+    </div>
+    {{ end }}
   </nav>
   {{ end }}
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
+
+<style>
+  .language-switcher {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .current-language {
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 4px;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.2s ease;
+  }
+  
+  .current-language:hover {
+    transform: scale(1.2);
+  }
+  
+  .language-toggle {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 4px;
+    transition: all 0.2s ease;
+    z-index: 10;
+  }
+  
+  .language-switcher:hover .language-toggle {
+    display: inline-block;
+  }
+  
+  .language-switcher:hover .current-language {
+    opacity: 0.5;
+  }
+  
+  .language-toggle:hover {
+    transform: scale(1.2);
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  .nav-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+</style>
