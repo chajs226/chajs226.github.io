@@ -3,7 +3,7 @@ theme = 'maverick'
 
 # 다국어 기본 설정
 defaultContentLanguage = 'ko'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [permalinks]
   pages = "/:slug"
@@ -25,22 +25,27 @@ defaultContentLanguageInSubdir = false
       
       [languages.ko.params.comments]
         enabled = false
+      
+      # 한국어용 소셜 미디어 링크
+      [languages.ko.params.social]
+        github = "https://github.com/chajs226"
+        email = "mailto:chajs226@gmail.com"
     
-    # 한국어 메뉴
-    [[languages.ko.menu.main]]
+    # 한국어 메뉴 (기본)
+    [[menus.main]]
       identifier = "posts"
       name = "포스트"
-      url = "/posts/"
+      pageRef = "/posts"
       weight = 1
-    [[languages.ko.menu.main]]
+    [[menus.main]]
       identifier = "notes"
       name = "노트"
-      url = "/notes/"
+      pageRef = "/notes"
       weight = 2
-    [[languages.ko.menu.main]]
+    [[menus.main]]
       identifier = "about"
       name = "소개"
-      url = "/about/"
+      pageRef = "/about"
       weight = 3
 
   [languages.en]
@@ -48,6 +53,7 @@ defaultContentLanguageInSubdir = false
     languageName = 'English'
     title = "Junseong's Story"
     weight = 2
+    contentDir = "content/en"
     
     [languages.en.params]
       logo = '/assets/favicon.ico'
@@ -58,23 +64,12 @@ defaultContentLanguageInSubdir = false
       
       [languages.en.params.comments]
         enabled = false
-    
-    # 영어 메뉴
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      name = "Posts"
-      url = "/en/posts/"
-      weight = 1
-    [[languages.en.menu.main]]
-      identifier = "notes"
-      name = "Notes"
-      url = "/en/notes/"
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/en/about/"
-      weight = 3
+      
+      # 영어용 소셜 미디어 링크
+      [languages.en.params.social]
+        github = "https://github.com/chajs226"
+        email = "mailto:chajs226@gmail.com"
+
 
 [markup]
   [markup.goldmark.renderer]

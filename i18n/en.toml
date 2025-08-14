@@ -1,4 +1,13 @@
 # Menu translations
+[posts]
+other = "Posts"
+
+[notes]
+other = "Notes"
+
+[about]
+other = "About"
+
 [menu_home]
 other = "Home"
 

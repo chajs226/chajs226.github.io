@@ -1,4 +1,13 @@
 # 메뉴 번역
+[posts]
+other = "포스트"
+
+[notes]
+other = "노트"
+
+[about]
+other = "소개"
+
 [menu_home]
 other = "홈"
 

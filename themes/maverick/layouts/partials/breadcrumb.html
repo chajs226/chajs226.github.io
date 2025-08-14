@@ -1,0 +1,61 @@
+{{ if not .IsHome }}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <ol>
+    <li><a href="{{ .Site.BaseURL }}">{{ i18n "menu_home" }}</a></li>
+    {{ if .Section }}
+      {{ if eq .Section "posts" }}
+        <li><a href="{{ (printf "/%s/" .Section) | relURL }}">{{ i18n "menu_posts" }}</a></li>
+      {{ else if eq .Section "notes" }}
+        <li><a href="{{ (printf "/%s/" .Section) | relURL }}">{{ i18n "menu_notes" }}</a></li>
+      {{ else }}
+        <li><a href="{{ (printf "/%s/" .Section) | relURL }}">{{ .Section | title }}</a></li>
+      {{ end }}
+    {{ end }}
+    {{ if not .IsSection }}
+      <li class="current">{{ .Title }}</li>
+    {{ end }}
+  </ol>
+</nav>
+
+<style>
+.breadcrumb {
+  margin: 1rem 0;
+  font-size: 0.9em;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li:not(:last-child):after {
+  content: "›";
+  margin: 0 0.5rem;
+  color: #ccc;
+}
+
+.breadcrumb a {
+  color: #666;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: #007acc;
+  text-decoration: underline;
+}
+
+.breadcrumb .current {
+  color: #333;
+  font-weight: 500;
+}
+</style>
+{{ end }}

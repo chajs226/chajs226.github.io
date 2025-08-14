@@ -7,6 +7,17 @@
   </p>
   <p class="footer-text">© {{ dateFormat "2006" now }} {{ .Site.Params.author }}</p>
   
+  <!-- 소셜 미디어 링크 -->
+  {{ if .Site.Params.social }}
+  <div class="social-links">
+    {{ range $name, $url := .Site.Params.social }}
+      <a href="{{ $url }}" target="_blank" rel="noopener" title="{{ $name | title }}">
+        {{ if eq $name "github" }}GitHub{{ else if eq $name "email" }}Email{{ else }}{{ $name | title }}{{ end }}
+      </a>
+    {{ end }}
+  </div>
+  {{ end }}
+  
   <!-- 언어 전환 링크 -->
   {{ if gt (len .Site.Languages) 1 }}
   <div class="language-footer">
@@ -54,6 +65,23 @@
 
 .lang-link:hover {
   color: #333;
+  text-decoration: underline;
+}
+
+.social-links {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.social-links a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 0.9em;
+}
+
+.social-links a:hover {
+  color: #007acc;
   text-decoration: underline;
 }
 </style>

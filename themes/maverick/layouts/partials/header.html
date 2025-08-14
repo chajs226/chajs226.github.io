@@ -1,7 +1,7 @@
 {{ $menuLength := len .Site.Menus.main }}
 <header>
   <p style="padding: 0;margin: 0;">
-    <a href="{{ .Site.BaseURL }}">
+    <a href="{{ if eq .Site.Language.Lang "ko" }}{{ .Site.BaseURL }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Language.Lang }}/{{ end }}">
       <b>{{ .Site.Title }}</b>
       <span class="text-stone-500 animate-blink">▮</span>
     </a>
@@ -12,9 +12,9 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-      <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-      {{ end }}
+      <a href="{{ if .URL }}{{ .URL }}{{ else }}{{ .PageRef | relLangURL }}{{ end }}"><span>{{ .Name }}</span></a>
     </li>
+    {{ end }}
   </ul>
   {{ else }}
   <button class="burger" aria-label="Toggle menu">
@@ -25,10 +25,14 @@
   <nav class="nav-menu">
     <ul style="padding: 0;margin: 0;">
       {{ $currentPage := . }}
-      {{ range $index, $element := .Site.Menus.main }}
-        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-          <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
-        </li>
+      {{ if eq .Site.Language.Lang "en" }}
+        <li><a href="{{ "posts" | relLangURL }}"><span>Posts</span></a></li>
+        <li><a href="{{ "notes" | relLangURL }}"><span>Notes</span></a></li>
+        <li><a href="{{ "about" | relLangURL }}"><span>About</span></a></li>
+      {{ else }}
+        <li><a href="{{ "posts" | relLangURL }}"><span>포스트</span></a></li>
+        <li><a href="{{ "notes" | relLangURL }}"><span>노트</span></a></li>
+        <li><a href="{{ "about" | relLangURL }}"><span>소개</span></a></li>
       {{ end }}
     </ul>
     
