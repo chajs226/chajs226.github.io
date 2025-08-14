@@ -1,39 +1,80 @@
 baseURL = 'https://chajs226.github.io/'
-languageCode = 'ko-kr'
-title = "Junseong's Story"
 theme = 'maverick'
+
+# 다국어 기본 설정
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = false
 
 [permalinks]
   pages = "/:slug"
 
-[params]
-  logo = '/assets/favicon.ico'
-  description = "Junseong's Playgound"
-  author = '차준성'
-  items = 10
-  # 모든 섹션의 콘텐츠를 메인에서 표시
-  mainSections = ["posts", "notes"]
-  
-  [params.comments]
-    enabled = false
-
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+# 언어별 설정
+[languages]
+  [languages.ko]
+    languageCode = 'ko-kr'
+    languageName = '한국어'
+    title = "Junseong's Story"
     weight = 1
-  [[menu.main]]
-    identifier = "notes"
-    name = "Notes"
-    url = "/notes/"
-    weight = 3
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 4
+    
+    [languages.ko.params]
+      logo = '/assets/favicon.ico'
+      description = "Junseong's Playground"
+      author = '차준성'
+      items = 10
+      mainSections = ["posts", "notes"]
+      
+      [languages.ko.params.comments]
+        enabled = false
+    
+    # 한국어 메뉴
+    [[languages.ko.menu.main]]
+      identifier = "posts"
+      name = "포스트"
+      url = "/posts/"
+      weight = 1
+    [[languages.ko.menu.main]]
+      identifier = "notes"
+      name = "노트"
+      url = "/notes/"
+      weight = 2
+    [[languages.ko.menu.main]]
+      identifier = "about"
+      name = "소개"
+      url = "/about/"
+      weight = 3
+
+  [languages.en]
+    languageCode = 'en-us'
+    languageName = 'English'
+    title = "Junseong's Story"
+    weight = 2
+    
+    [languages.en.params]
+      logo = '/assets/favicon.ico'
+      description = "Junseong's Playground"
+      author = 'Junseong Cha'
+      items = 10
+      mainSections = ["posts", "notes"]
+      
+      [languages.en.params.comments]
+        enabled = false
+    
+    # 영어 메뉴
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "notes"
+      name = "Notes"
+      url = "/en/notes/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 3
 
 [markup]
   [markup.goldmark.renderer]
