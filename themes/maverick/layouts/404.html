@@ -1,16 +1,6 @@
-<!doctype html>
-<html lang="{{ .Site.Language.Lang }}">
-  {{ partial "head.html" . }}
-<body>
-  <a class="skip-link" href="#main">Skip to main</a>
-<main id="main">
-  <div class="content">
-    {{ partial "header.html" . }}
-    <h1>{{ i18n "error_404" }}</h1>
-    <p>{{ i18n "error_404_message" }}</p>
-    <p><a href="{{ .Site.BaseURL }}">{{ i18n "back_to_home" }}</a></p>
-  </div>
-</main>
-</body>
-</html>
+{{ define "main" }}
+<h1>{{ i18n "error_404" }}</h1>
+<p>{{ i18n "error_404_message" }}</p>
+<p><a href="{{ .Site.BaseURL }}">{{ i18n "back_to_home" }}</a></p>
+{{ end }}
 

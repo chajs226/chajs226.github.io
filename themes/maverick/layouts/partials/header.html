@@ -31,7 +31,84 @@
         </li>
       {{ end }}
     </ul>
+    
+    <!-- Language Switcher -->
+    {{ if gt (len .Site.Languages) 1 }}
+    <div class="language-switcher">
+      {{ range .Site.Languages }}
+        {{ if ne $.Site.Language.Lang .Lang }}
+          <a href="{{ if eq .Lang "ko" }}/{{ else }}/{{ .Lang }}/{{ end }}" 
+             class="language-toggle"
+             title="Switch to {{ .LanguageName }}">
+            {{ if eq .Lang "ko" }}🇰🇷{{ else if eq .Lang "en" }}🇺🇸{{ else }}{{ .LanguageName }}{{ end }}
+          </a>
+        {{ end }}
+      {{ end }}
+      
+      <!-- Current language indicator -->
+      <span class="current-language" title="{{ .Site.Language.LanguageName }}">
+        {{ if eq .Site.Language.Lang "ko" }}🇰🇷{{ else if eq .Site.Language.Lang "en" }}🇺🇸{{ else }}{{ .Site.Language.LanguageName }}{{ end }}
+      </span>
+    </div>
+    {{ end }}
   </nav>
   {{ end }}
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
+
+<style>
+  .language-switcher {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .current-language {
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 4px;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.2s ease;
+  }
+  
+  .current-language:hover {
+    transform: scale(1.2);
+  }
+  
+  .language-toggle {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 4px;
+    transition: all 0.2s ease;
+    z-index: 10;
+  }
+  
+  .language-switcher:hover .language-toggle {
+    display: inline-block;
+  }
+  
+  .language-switcher:hover .current-language {
+    opacity: 0.5;
+  }
+  
+  .language-toggle:hover {
+    transform: scale(1.2);
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  .nav-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+</style>
