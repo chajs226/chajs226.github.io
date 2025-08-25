@@ -1,6 +1,9 @@
 baseURL = 'https://chajs226.github.io/'
 theme = 'maverick'
 
+# 시간대 설정 (한국 표준시)
+timeZone = 'Asia/Seoul'
+
 # 다국어 기본 설정
 defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = true
@@ -15,11 +18,12 @@ defaultContentLanguageInSubdir = true
     languageName = '한국어'
     title = "Junseong's Story"
     weight = 1
+    timeZone = 'Asia/Seoul'
     
     [languages.ko.params]
       logo = '/assets/favicon.ico'
       description = "Junseong's Playground"
-      author = '차준성'
+      author = 'Junseong'
       items = 10
       mainSections = ["posts", "notes"]
       
