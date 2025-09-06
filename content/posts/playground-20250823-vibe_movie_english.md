@@ -5,7 +5,7 @@ date: "2025-08-23"
 tags: 
 - english
 - vibe coding
-draft: false  # draft 상태가 아님을 명시
+draft: true  # draft 상태가 아님을 명시
 ---
 
 평생 초보의 문턱을 못 넘어가고 있는 영어 실력을 어떻게 키울 수 있을지가 고민입니다. 영어 공부 자체보다는 여기에 더 시간을 쏟는 것 같습니다.
